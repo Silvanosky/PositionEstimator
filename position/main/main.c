@@ -4,6 +4,8 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
+#include "Icm20948.h"
+
 
 void app_main()
 {
