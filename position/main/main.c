@@ -5,30 +5,105 @@
 #include "esp_spi_flash.h"
 
 #include "Icm20948.h"
+#include "Fusion.h"
 
+FusionBias fusionBias;
+FusionAhrs fusionAhrs;
+
+float samplePeriod = 0.01f; // replace this value with actual sample period in seconds
+
+FusionVector3 gyroscopeSensitivity = {
+    .axis.x = 1.0f,
+    .axis.y = 1.0f,
+    .axis.z = 1.0f,
+}; // replace these values with actual sensitivity in degrees per second per lsb as specified in gyroscope datasheet
+
+FusionVector3 accelerometerSensitivity = {
+    .axis.x = 1.0f,
+    .axis.y = 1.0f,
+    .axis.z = 1.0f,
+}; // replace these values with actual sensitivity in g per lsb as specified in accelerometer datasheet
+
+FusionVector3 hardIronBias = {
+    .axis.x = 0.0f,
+    .axis.y = 0.0f,
+    .axis.z = 0.0f,
+}; // replace these values with actual hard-iron bias in uT if known
+
+static void delay(size_t ms)
+{
+	vTaskDelay(ms / portTICK_RATE_MS);
+}
 
 void app_main()
 {
-    printf("Hello world!\n");
 
-    /* Print chip information */
-    esp_chip_info_t chip_info;
-    esp_chip_info(&chip_info);
-    printf("This is ESP32 chip with %d CPU cores, WiFi%s%s, ",
-            chip_info.cores,
-            (chip_info.features & CHIP_FEATURE_BT) ? "/BT" : "",
-            (chip_info.features & CHIP_FEATURE_BLE) ? "/BLE" : "");
+	IMU_EN_SENSOR_TYPE enMotionSensorType;
+	imuInit(&enMotionSensorType);
+	if(IMU_EN_SENSOR_TYPE_ICM20948 == enMotionSensorType)
+	{
+		printf("Motion sensor is ICM-20948\n");
+	}
+	else
+	{
+		printf("Motion sensor NULL\n");
+	}
 
-    printf("silicon revision %d, ", chip_info.revision);
+	delay(1000);
 
-    printf("%dMB %s flash\n", spi_flash_get_chip_size() / (1024 * 1024),
-            (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
+	// Initialise gyroscope bias correction algorithm
+	FusionBiasInitialise(&fusionBias, 0.5f, samplePeriod); // stationary threshold = 0.5 degrees per second
 
-    for (int i = 10; i >= 0; i--) {
-        printf("Restarting in %d seconds...\n", i);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-    }
-    printf("Restarting now.\n");
-    fflush(stdout);
-    esp_restart();
+    // Initialise AHRS algorithm
+    FusionAhrsInitialise(&fusionAhrs, 0.5f); // gain = 0.5
+
+    // Set optional magnetic field limits
+    FusionAhrsSetMagneticField(&fusionAhrs, 20.0f, 70.0f); // valid magnetic field range = 20 uT to 70 uT
+
+	// The contents of this do while loop should be called for each time new sensor measurements are available
+	// put your main code here, to run repeatedly:
+
+	IMU_ST_SENSOR_DATA stGyroRawData;
+	IMU_ST_SENSOR_DATA stAccelRawData;
+	IMU_ST_SENSOR_DATA stMagnRawData;
+
+	do {
+		imuDataGet(&stGyroRawData, &stAccelRawData, &stMagnRawData);
+
+		// Calibrate gyroscope
+		FusionVector3 uncalibratedGyroscope = {
+			.axis.x = stGyroRawData.s16X, /* replace this value with actual gyroscope x axis measurement in lsb */
+			.axis.y = stGyroRawData.s16Y, /* replace this value with actual gyroscope y axis measurement in lsb */
+			.axis.z = stGyroRawData.s16Z, /* replace this value with actual gyroscope z axis measurement in lsb */
+		};
+		FusionVector3 calibratedGyroscope = FusionCalibrationInertial(uncalibratedGyroscope, FUSION_ROTATION_MATRIX_IDENTITY, gyroscopeSensitivity, FUSION_VECTOR3_ZERO);
+
+		// Calibrate accelerometer
+		FusionVector3 uncalibratedAccelerometer = {
+			.axis.x = stAccelRawData.s16X, /* replace this value with actual accelerometer x axis measurement in lsb */
+			.axis.y = stAccelRawData.s16Y, /* replace this value with actual accelerometer y axis measurement in lsb */
+			.axis.z = stAccelRawData.s16Z, /* replace this value with actual accelerometer z axis measurement in lsb */
+		};
+		FusionVector3 calibratedAccelerometer = FusionCalibrationInertial(uncalibratedAccelerometer, FUSION_ROTATION_MATRIX_IDENTITY, accelerometerSensitivity, FUSION_VECTOR3_ZERO);
+
+		// Calibrate magnetometer
+		FusionVector3 uncalibratedMagnetometer = {
+			.axis.x = stMagnRawData.s16X, /* replace this value with actual magnetometer x axis measurement in uT */
+			.axis.y = stMagnRawData.s16Y, /* replace this value with actual magnetometer y axis measurement in uT */
+			.axis.z = stMagnRawData.s16Z, /* replace this value with actual magnetometer z axis measurement in uT */
+		};
+		FusionVector3 calibratedMagnetometer = FusionCalibrationMagnetic(uncalibratedMagnetometer, FUSION_ROTATION_MATRIX_IDENTITY, hardIronBias);
+
+		// Update gyroscope bias correction algorithm
+		calibratedGyroscope = FusionBiasUpdate(&fusionBias, calibratedGyroscope);
+
+		// Update AHRS algorithm
+		FusionAhrsUpdate(&fusionAhrs, calibratedGyroscope, calibratedAccelerometer, calibratedMagnetometer, samplePeriod);
+
+		// Print Euler angles
+		FusionEulerAngles eulerAngles = FusionQuaternionToEulerAngles(FusionAhrsGetQuaternion(&fusionAhrs));
+		printf("Roll = %0.1f, Pitch = %0.1f, Yaw = %0.1f\r\n", eulerAngles.angle.roll, eulerAngles.angle.pitch, eulerAngles.angle.yaw);
+		fflush(stdout);
+
+	} while (false);
 }

@@ -44,7 +44,7 @@ extern "C" {
 	/******************************************************************************
 	 * interface driver                                                           *
 	 ******************************************************************************/
-	void delay(size_t ms)
+	static void delay(size_t ms)
 	{
 		vTaskDelay(ms / portTICK_RATE_MS);
 	}
@@ -103,9 +103,6 @@ extern "C" {
 #define Kp 4.50f   // proportional gain governs rate of convergence to accelerometer/magnetometer
 #define Ki 1.0f    // integral gain governs rate of convergence of gyroscope biases
 
-	float angles[3];
-	float q0, q1, q2, q3;
-
 	void imuInit(IMU_EN_SENSOR_TYPE *penMotionSensorType)
 	{
 		bool bRet = false;
@@ -123,11 +120,6 @@ extern "C" {
 			*penMotionSensorType = IMU_EN_SENSOR_TYPE_NULL;
 			printf("[IMU] Error no IMU\n");
 		}
-
-		q0 = 1.0f;
-		q1 = 0.0f;
-		q2 = 0.0f;
-		q3 = 0.0f;
 
 		return;
 	}
