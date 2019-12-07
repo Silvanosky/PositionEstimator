@@ -16,3 +16,13 @@ Try to recover path.
 - [ ] Code wifi driver to get data
 - [ ] Write packets to get data
 - [ ] Calibrate Magnetometer, Accelerometer
+
+Python:
+
+- [ ] Wi-Fi module
+    - [ ] Connect via Wi-Fi
+    - [ ] Receive data
+    - [ ] Build Graph
+- [X] Implement Graph class
+    - [X] Display points
+    - [X] Log points
