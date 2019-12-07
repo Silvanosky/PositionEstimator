@@ -19,7 +19,7 @@ Try to recover path.
 
 Python:
 
-- [ ] Wi-Fi module
+- [~] Wi-Fi module
     - [ ] Connect via Wi-Fi
     - [ ] Receive data
     - [ ] Build Graph

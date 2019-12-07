@@ -1,6 +1,9 @@
+from connection import Connection
 from graph import Graph
 from pylab import *
 
-g = Graph()
-g.load()
-g.print()
+# Connect
+# Create graph
+#   Fetch point
+#   Save point
+# Save graph
