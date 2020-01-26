@@ -1,0 +1,1219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e216bb44/
+A	FusionAhrs.c	/^#define A /;"	d	file:
+A	FusionTypes.h	/^#define A /;"	d
+ACCEL_CYCLE	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_CYCLE					: 1;$/;"	m	struct:__anon6c8e081e0408	typeref:typename:uint8_t:1
+ACCEL_DLPFCFG	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_DLPFCFG 			: 3;$/;"	m	struct:__anon6c8e081e4a08	typeref:typename:uint8_t:3
+ACCEL_DLPF_BANDWIDTH_111HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_111HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_1209HZ	ICM20948.h	/^    	ACCEL_DLPF_BANDWIDTH_1209HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_12HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_12HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_246HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_246HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_24HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_24HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_473HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_473HZ$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_50HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_50HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_DLPF_BANDWIDTH_6HZ	ICM20948.h	/^      ACCEL_DLPF_BANDWIDTH_6HZ,$/;"	e	enum:ICM20948::AccelDlpfBandwidth
+ACCEL_FCHOICE	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_FCHOICE 			: 1;$/;"	m	struct:__anon6c8e081e4a08	typeref:typename:uint8_t:1
+ACCEL_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:1
+ACCEL_FS_SEL	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_FS_SEL			: 2;$/;"	m	struct:__anon6c8e081e4a08	typeref:typename:uint8_t:2
+ACCEL_INTEL_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_INTEL_EN			: 1;$/;"	m	struct:__anon6c8e081e4808	typeref:typename:uint8_t:1
+ACCEL_INTEL_MODE_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_INTEL_MODE_INT	: 1;$/;"	m	struct:__anon6c8e081e4808	typeref:typename:uint8_t:1
+ACCEL_RANGE_16G	ICM20948.h	/^      ACCEL_RANGE_16G$/;"	e	enum:ICM20948::AccelRange
+ACCEL_RANGE_2G	ICM20948.h	/^      ACCEL_RANGE_2G,$/;"	e	enum:ICM20948::AccelRange
+ACCEL_RANGE_4G	ICM20948.h	/^      ACCEL_RANGE_4G,$/;"	e	enum:ICM20948::AccelRange
+ACCEL_RANGE_8G	ICM20948.h	/^      ACCEL_RANGE_8G,$/;"	e	enum:ICM20948::AccelRange
+ACCEL_SMPLRT_DIV_11_8	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_SMPLRT_DIV_11_8	: 4;$/;"	m	struct:__anon6c8e081e4608	typeref:typename:uint8_t:4
+ACCEL_SMPLRT_DIV_7_0	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_SMPLRT_DIV_7_0;$/;"	m	struct:__anon6c8e081e4708	typeref:typename:uint8_t
+ACCEL_XOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_XOUT_H;$/;"	m	struct:__anon6c8e081e1708	typeref:typename:uint8_t
+ACCEL_XOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_XOUT_L;$/;"	m	struct:__anon6c8e081e1808	typeref:typename:uint8_t
+ACCEL_YOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_YOUT_H;$/;"	m	struct:__anon6c8e081e1908	typeref:typename:uint8_t
+ACCEL_YOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_YOUT_L;$/;"	m	struct:__anon6c8e081e1a08	typeref:typename:uint8_t
+ACCEL_ZOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_ZOUT_H;$/;"	m	struct:__anon6c8e081e1b08	typeref:typename:uint8_t
+ACCEL_ZOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t ACCEL_ZOUT_L;$/;"	m	struct:__anon6c8e081e1c08	typeref:typename:uint8_t
+ACK_CHECK_DIS	ICM20948.cpp	/^#define ACK_CHECK_DIS /;"	d	file:
+ACK_CHECK_DIS	ICM_20948.cpp	/^#define ACK_CHECK_DIS /;"	d	file:
+ACK_CHECK_EN	ICM20948.cpp	/^#define ACK_CHECK_EN /;"	d	file:
+ACK_CHECK_EN	ICM_20948.cpp	/^#define ACK_CHECK_EN /;"	d	file:
+ACK_VAL	ICM20948.cpp	/^#define ACK_VAL /;"	d	file:
+ACK_VAL	ICM_20948.cpp	/^#define ACK_VAL /;"	d	file:
+ACTL_FSYNC	util/ICM_20948_REGISTERS.h	/^	uint8_t ACTL_FSYNC					: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+AGB0_REG_ACCEL_XOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_XOUT_H = 0x2D,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_ACCEL_XOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_XOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_ACCEL_YOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_YOUT_H,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_ACCEL_YOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_YOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_ACCEL_ZOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_ZOUT_H,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_ACCEL_ZOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_ACCEL_ZOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_DATA_RDY_STATUS	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_DATA_RDY_STATUS = 0x74,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_DELAY_TIMEH	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_DELAY_TIMEH = 0x28,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_DELAY_TIMEL	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_DELAY_TIMEL,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_00	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_00,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_01	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_01,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_02	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_02,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_03	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_03,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_04	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_04,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_05	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_05,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_06	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_06,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_07	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_07,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_08	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_08,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_09	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_09,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_10	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_10,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_11	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_11,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_12	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_12,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_13	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_13,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_14	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_14,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_15	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_15,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_16	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_16,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_17	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_17,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_18	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_18,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_19	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_19,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_20	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_20,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_21	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_21,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_22	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_22,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_EXT_SLV_SENS_DATA_23	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_EXT_SLV_SENS_DATA_23,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_CFG	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_CFG = 0x76,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_COUNT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_COUNT_H = 0x70,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_COUNT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_COUNT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_EN_1	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_EN_1 = 0x66,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_EN_2	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_EN_2,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_MODE	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_MODE,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_FIFO_R_W	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_FIFO_R_W,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_XOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_XOUT_H,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_XOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_XOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_YOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_YOUT_H,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_YOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_YOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_ZOUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_ZOUT_H,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_GYRO_ZOUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_GYRO_ZOUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_I2C_MST_STATUS	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_I2C_MST_STATUS = 0x17,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_ENABLE	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_ENABLE,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_ENABLE_1	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_ENABLE_1,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_ENABLE_2	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_ENABLE_2,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_ENABLE_3	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_ENABLE_3,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_PIN_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_PIN_CONFIG = 0x0F,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_STATUS	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_STATUS = 0x19,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_STATUS_1	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_STATUS_1,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_STATUS_2	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_STATUS_2,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_INT_STATUS_3	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_INT_STATUS_3,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_LP_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_LP_CONFIG = 0x05,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_MEM_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_MEM_BANK_SEL 		= 0x7E,		\/\/ And that location is also where the DMP image gets loaded$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_MEM_R_W	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_MEM_R_W 			= 0x7D,		\/\/ These three locations seem to be able to access some memory w/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_MEM_START_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_MEM_START_ADDR 	= 0x7C,		\/\/ Hmm, Invensense thought they were sneaky not listing the/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_PWR_MGMT_1	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_PWR_MGMT_1,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_PWR_MGMT_2	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_PWR_MGMT_2,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_REG_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_REG_BANK_SEL = 0x7F,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_TEMP_OUT_H	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_TEMP_OUT_H, $/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_TEMP_OUT_L	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_TEMP_OUT_L,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_USER_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_USER_CTRL = 0x03,$/;"	e	enum:__anon6c8e081e0103
+AGB0_REG_WHO_AM_I	util/ICM_20948_REGISTERS.h	/^	AGB0_REG_WHO_AM_I = 0x00,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_REG_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_REG_BANK_SEL = 0x7F,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_X_ACCEL	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_X_ACCEL = 0x0E,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_X_GYRO	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_X_GYRO = 0x02,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_Y_ACCEL	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_Y_ACCEL,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_Y_GYRO	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_Y_GYRO,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_Z_ACCEL	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_Z_ACCEL,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_SELF_TEST_Z_GYRO	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_SELF_TEST_Z_GYRO,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_TIMEBASE_CORRECTION_PLL	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_TIMEBASE_CORRECTION_PLL = 0x28,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_XA_OFFS_H	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_XA_OFFS_H = 0x14,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_XA_OFFS_L	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_XA_OFFS_L,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_YA_OFFS_H	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_YA_OFFS_H = 0x17,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_YA_OFFS_L	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_YA_OFFS_L,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_ZA_OFFS_H	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_ZA_OFFS_H = 0x1A,$/;"	e	enum:__anon6c8e081e0103
+AGB1_REG_ZA_OFFS_L	util/ICM_20948_REGISTERS.h	/^	AGB1_REG_ZA_OFFS_L,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_CONFIG,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_CONFIG_2	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_CONFIG_2,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_INTEL_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_INTEL_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_SMPLRT_DIV_1	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_SMPLRT_DIV_1 = 0x10,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_SMPLRT_DIV_2	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_SMPLRT_DIV_2,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ACCEL_WOM_THR	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ACCEL_WOM_THR,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_FSYNC_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_FSYNC_CONFIG = 0x52,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_GYRO_CONFIG_1	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_GYRO_CONFIG_1,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_GYRO_CONFIG_2	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_GYRO_CONFIG_2,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_GYRO_SMPLRT_DIV	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_GYRO_SMPLRT_DIV = 0x00,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_MOD_CTRL_USR	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_MOD_CTRL_USR,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ODR_ALIGN_EN	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ODR_ALIGN_EN,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_REG_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_REG_BANK_SEL = 0x7F,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_TEMP_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_TEMP_CONFIG,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_XG_OFFS_USRH	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_XG_OFFS_USRH,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_XG_OFFS_USRL	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_XG_OFFS_USRL,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_YG_OFFS_USRH	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_YG_OFFS_USRH,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_YG_OFFS_USRL	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_YG_OFFS_USRL,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ZG_OFFS_USRH	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ZG_OFFS_USRH,$/;"	e	enum:__anon6c8e081e0103
+AGB2_REG_ZG_OFFS_USRL	util/ICM_20948_REGISTERS.h	/^	AGB2_REG_ZG_OFFS_USRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_MST_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_MST_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_MST_DELAY_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_MST_DELAY_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_MST_ODR_CONFIG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_MST_ODR_CONFIG = 0x00,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV0_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV0_ADDR,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV0_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV0_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV0_DO	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV0_DO,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV0_REG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV0_REG,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV1_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV1_ADDR,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV1_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV1_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV1_DO	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV1_DO,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV1_REG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV1_REG,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV2_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV2_ADDR,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV2_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV2_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV2_DO	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV2_DO,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV2_REG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV2_REG,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV3_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV3_ADDR,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV3_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV3_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV3_DO	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV3_DO,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV3_REG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV3_REG,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV4_ADDR	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV4_ADDR,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV4_CTRL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV4_CTRL,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV4_DI	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV4_DI,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV4_DO	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV4_DO,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_I2C_SLV4_REG	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_I2C_SLV4_REG,$/;"	e	enum:__anon6c8e081e0103
+AGB3_REG_REG_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	AGB3_REG_REG_BANK_SEL = 0x7F,$/;"	e	enum:__anon6c8e081e0103
+AK09916_CNTL2_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_CNTL2_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40608
+AK09916_CNTL3_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_CNTL3_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40708
+AK09916_REG_CNTL2	util/AK09916_REGISTERS.h	/^    AK09916_REG_CNTL2 = 0x31,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_CNTL3	util/AK09916_REGISTERS.h	/^    AK09916_REG_CNTL3,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HXH	util/AK09916_REGISTERS.h	/^    AK09916_REG_HXH,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HXL	util/AK09916_REGISTERS.h	/^    AK09916_REG_HXL,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HYH	util/AK09916_REGISTERS.h	/^    AK09916_REG_HYH,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HYL	util/AK09916_REGISTERS.h	/^    AK09916_REG_HYL,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HZH	util/AK09916_REGISTERS.h	/^    AK09916_REG_HZH,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_HZL	util/AK09916_REGISTERS.h	/^    AK09916_REG_HZL,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_ST1	util/AK09916_REGISTERS.h	/^    AK09916_REG_ST1 = 0x10,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_ST2	util/AK09916_REGISTERS.h	/^    AK09916_REG_ST2 = 0x18,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_WIA1	util/AK09916_REGISTERS.h	/^	AK09916_REG_WIA1 = 0x00,$/;"	e	enum:__anon16c1e4d40103
+AK09916_REG_WIA2	util/AK09916_REGISTERS.h	/^    AK09916_REG_WIA2,$/;"	e	enum:__anon16c1e4d40103
+AK09916_Reg_Addr_e	util/AK09916_REGISTERS.h	/^}AK09916_Reg_Addr_e;$/;"	t	typeref:enum:__anon16c1e4d40103
+AK09916_ST1_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_ST1_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40408
+AK09916_ST2_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_ST2_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40508
+AK09916_WIA1_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_WIA1_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40208
+AK09916_WIA2_Reg_t	util/AK09916_REGISTERS.h	/^    }AK09916_WIA2_Reg_t;$/;"	t	typeref:struct:__anon16c1e4d40308
+AK09916_mode_cont_100hz	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_cont_100hz = (0x04 << 1),$/;"	e	enum:__anone5c709160103
+AK09916_mode_cont_10hz	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_cont_10hz 	= (0x01 << 1),$/;"	e	enum:__anone5c709160103
+AK09916_mode_cont_20hz	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_cont_20hz 	= (0x02 << 1),$/;"	e	enum:__anone5c709160103
+AK09916_mode_cont_50hz	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_cont_50hz 	= (0x03 << 1),$/;"	e	enum:__anone5c709160103
+AK09916_mode_e	util/AK09916_ENUMERATIONS.h	/^}AK09916_mode_e;$/;"	t	typeref:enum:__anone5c709160103
+AK09916_mode_power_down	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_power_down = 0x00,$/;"	e	enum:__anone5c709160103
+AK09916_mode_self_test	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_self_test 	= (0x01 << 4), $/;"	e	enum:__anone5c709160103
+AK09916_mode_single	util/AK09916_ENUMERATIONS.h	/^	AK09916_mode_single 	= (0x01 << 0),$/;"	e	enum:__anone5c709160103
+AX_ST_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t AX_ST_EN				: 1;$/;"	m	struct:__anon6c8e081e4b08	typeref:typename:uint8_t:1
+AY_ST_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t AY_ST_EN				: 1;$/;"	m	struct:__anon6c8e081e4b08	typeref:typename:uint8_t:1
+AZ_ST_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t AZ_ST_EN				: 1;$/;"	m	struct:__anon6c8e081e4b08	typeref:typename:uint8_t:1
+AccelDlpfBandwidth	ICM20948.h	/^    enum AccelDlpfBandwidth$/;"	g	class:ICM20948
+AccelRange	ICM20948.h	/^    enum AccelRange$/;"	g	class:ICM20948
+B	FusionTypes.h	/^#define B /;"	d
+BYPASS_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t BYPASS_EN					: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+BYTE_SW	util/ICM_20948_REGISTERS.h	/^	uint8_t BYTE_SW 				: 1;$/;"	m	struct:__anon6c8e081e5408	typeref:typename:uint8_t:1
+CLKSEL	util/ICM_20948_REGISTERS.h	/^	uint8_t CLKSEL						: 3;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:3
+COMPONENT_ADD_INCLUDEDIRS	CMakeLists.txt	/^set(COMPONENT_ADD_INCLUDEDIRS "")$/;"	v
+COMPONENT_SRCS	CMakeLists.txt	/^set(COMPONENT_SRCS "main.c Icm20948.cpp")$/;"	v
+CORNER_FREQUENCY	FusionBias.c	/^#define CORNER_FREQUENCY /;"	d	file:
+DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t DATA;				\/\/ Note: this is not worth copying 24 times, despite there being 24 register/;"	m	struct:__anon6c8e081e2508	typeref:typename:uint8_t
+DEC3_CFG	util/ICM_20948_REGISTERS.h	/^	uint8_t DEC3_CFG				: 2;$/;"	m	struct:__anon6c8e081e4b08	typeref:typename:uint8_t:2
+DELAY_ES_SHADOW	util/ICM_20948_REGISTERS.h	/^	uint8_t DELAY_ES_SHADOW 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+DELAY_TIMEH	util/ICM_20948_REGISTERS.h	/^	uint8_t DELAY_TIMEH;$/;"	m	struct:__anon6c8e081e1508	typeref:typename:uint8_t
+DELAY_TIMEL	util/ICM_20948_REGISTERS.h	/^	uint8_t DELAY_TIMEL;$/;"	m	struct:__anon6c8e081e1608	typeref:typename:uint8_t
+DELAY_TIME_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t DELAY_TIME_EN			: 1;$/;"	m	struct:__anon6c8e081e4c08	typeref:typename:uint8_t:1
+DEVICE_RESET	util/ICM_20948_REGISTERS.h	/^	uint8_t DEVICE_RESET				: 1;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:1
+DI	util/ICM_20948_REGISTERS.h	/^	uint8_t DI;$/;"	m	struct:__anon6c8e081e5708	typeref:typename:uint8_t
+DIABLE_ACCEL	util/ICM_20948_REGISTERS.h	/^	uint8_t DIABLE_ACCEL				: 3;$/;"	m	struct:__anon6c8e081e0608	typeref:typename:uint8_t:3
+DISABLE_GYRO	util/ICM_20948_REGISTERS.h	/^	uint8_t DISABLE_GYRO				: 3;$/;"	m	struct:__anon6c8e081e0608	typeref:typename:uint8_t:3
+DLY	util/ICM_20948_REGISTERS.h	/^	uint8_t DLY 					: 5;$/;"	m	struct:__anon6c8e081e5608	typeref:typename:uint8_t:5
+DMP_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t DMP_EN 						: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+DMP_INT1	util/ICM_20948_REGISTERS.h	/^	uint8_t DMP_INT1					: 1;$/;"	m	struct:__anon6c8e081e1108	typeref:typename:uint8_t:1
+DMP_INT1_EN	util/ICM_20948_C.h	/^		uint8_t DMP_INT1_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+DMP_INT1_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t DMP_INT1_EN					: 1;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:1
+DMP_RST	util/ICM_20948_REGISTERS.h	/^	uint8_t DMP_RST						: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+DO	util/ICM_20948_REGISTERS.h	/^	uint8_t DO;$/;"	m	struct:__anon6c8e081e5508	typeref:typename:uint8_t
+DOR	util/AK09916_REGISTERS.h	/^        uint8_t DOR : 1 ;$/;"	m	struct:__anon16c1e4d40408	typeref:typename:uint8_t:1
+DRDY	util/AK09916_REGISTERS.h	/^        uint8_t DRDY : 1;$/;"	m	struct:__anon16c1e4d40408	typeref:typename:uint8_t:1
+EN	util/ICM_20948_REGISTERS.h	/^	uint8_t EN 						: 1;$/;"	m	struct:__anon6c8e081e5408	typeref:typename:uint8_t:1
+EN	util/ICM_20948_REGISTERS.h	/^	uint8_t EN 						: 1;$/;"	m	struct:__anon6c8e081e5608	typeref:typename:uint8_t:1
+EXT_SYNC_SET	util/ICM_20948_REGISTERS.h	/^	uint8_t EXT_SYNC_SET 			: 4;$/;"	m	struct:__anon6c8e081e4c08	typeref:typename:uint8_t:4
+FIFO_CFG	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_CFG 				: 1;$/;"	m	struct:__anon6c8e081e2e08	typeref:typename:uint8_t:1
+FIFO_COUNTH	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_COUNTH;$/;"	m	struct:__anon6c8e081e2a08	typeref:typename:uint8_t
+FIFO_COUNTL	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_COUNTL;$/;"	m	struct:__anon6c8e081e2b08	typeref:typename:uint8_t
+FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_EN 					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+FIFO_MODE	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_MODE				: 5;$/;"	m	struct:__anon6c8e081e2908	typeref:typename:uint8_t:5
+FIFO_OVERFLOW_EN_0	util/ICM_20948_C.h	/^		uint8_t FIFO_OVERFLOW_EN_0 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_0	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_0 		: 1;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_1	util/ICM_20948_C.h	/^		uint8_t FIFO_OVERFLOW_EN_1 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_1	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_1		: 1;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_2	util/ICM_20948_C.h	/^		uint8_t FIFO_OVERFLOW_EN_2 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_2	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_2		: 1;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_3	util/ICM_20948_C.h	/^		uint8_t FIFO_OVERFLOW_EN_3 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_3	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_3		: 1;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_4	util/ICM_20948_C.h	/^		uint8_t FIFO_OVERFLOW_EN_4 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_4	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_4		: 1;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:1
+FIFO_OVERFLOW_EN_40	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_OVERFLOW_EN_40		: 5;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0b08	typeref:typename:uint8_t:5
+FIFO_OVERFLOW_INT_40	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_OVERFLOW_INT_40		: 5;$/;"	m	struct:__anon6c8e081e1308	typeref:typename:uint8_t:5
+FIFO_RESET	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_RESET				: 5;$/;"	m	struct:__anon6c8e081e2808	typeref:typename:uint8_t:5
+FIFO_R_W	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_R_W;	\/\/ Reading from or writing to this register actually reads from or writes t/;"	m	struct:__anon6c8e081e2c08	typeref:typename:uint8_t
+FIFO_WM_EN_0	util/ICM_20948_C.h	/^		uint8_t FIFO_WM_EN_0 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_WM_EN_0	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_WM_EN_0 			: 1;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:1
+FIFO_WM_EN_1	util/ICM_20948_C.h	/^		uint8_t FIFO_WM_EN_1 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_WM_EN_1	util/ICM_20948_REGISTERS.h	/^		uint8_t	FIFO_WM_EN_1			: 1;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:1
+FIFO_WM_EN_2	util/ICM_20948_C.h	/^		uint8_t FIFO_WM_EN_2 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_WM_EN_2	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_WM_EN_2			: 1;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:1
+FIFO_WM_EN_3	util/ICM_20948_C.h	/^		uint8_t FIFO_WM_EN_3 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_WM_EN_3	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_WM_EN_3			: 1;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:1
+FIFO_WM_EN_4	util/ICM_20948_C.h	/^		uint8_t FIFO_WM_EN_4 : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+FIFO_WM_EN_4	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_WM_EN_4			: 1;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:1
+FIFO_WM_EN_40	util/ICM_20948_REGISTERS.h	/^		uint8_t FIFO_WM_EN_40			: 5;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0e08	typeref:typename:uint8_t:5
+FIFO_WM_INT40	util/ICM_20948_REGISTERS.h	/^	uint8_t FIFO_WM_INT40				: 5;$/;"	m	struct:__anon6c8e081e1408	typeref:typename:uint8_t:5
+FSYNC_INT_MODE_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t FSYNC_INT_MODE_EN			: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+FUSION_AHRS_H	FusionAhrs.h	/^#define FUSION_AHRS_H$/;"	d
+FUSION_BIAS_H	FusionBias.h	/^#define FUSION_BIAS_H$/;"	d
+FUSION_CALIBRATION_H	FusionCalibration.h	/^#define FUSION_CALIBRATION_H$/;"	d
+FUSION_COMPASS_H	FusionCompass.h	/^#define FUSION_COMPASS_H$/;"	d
+FUSION_EULER_ANGLES_ZERO	FusionTypes.h	/^#define FUSION_EULER_ANGLES_ZERO /;"	d
+FUSION_H	Fusion.h	/^#define FUSION_H$/;"	d
+FUSION_QUATERNION_IDENTITY	FusionTypes.h	/^#define FUSION_QUATERNION_IDENTITY /;"	d
+FUSION_ROTATION_MATRIX_IDENTITY	FusionTypes.h	/^#define FUSION_ROTATION_MATRIX_IDENTITY /;"	d
+FUSION_TYPES_H	FusionTypes.h	/^#define FUSION_TYPES_H$/;"	d
+FUSION_VECTOR3_ZERO	FusionTypes.h	/^#define FUSION_VECTOR3_ZERO /;"	d
+FusionAhrs	FusionAhrs.h	/^} FusionAhrs;$/;"	t	typeref:struct:__anon69a1cf7d0108
+FusionAhrsGetEarthAcceleration	FusionAhrs.c	/^FusionVector3 FusionAhrsGetEarthAcceleration(const FusionAhrs * const fusionAhrs) {$/;"	f	typeref:typename:FusionVector3
+FusionAhrsGetLinearAcceleration	FusionAhrs.c	/^FusionVector3 FusionAhrsGetLinearAcceleration(const FusionAhrs * const fusionAhrs) {$/;"	f	typeref:typename:FusionVector3
+FusionAhrsGetQuaternion	FusionAhrs.c	/^FusionQuaternion FusionAhrsGetQuaternion(const FusionAhrs * const fusionAhrs) {$/;"	f	typeref:typename:FusionQuaternion
+FusionAhrsInitialise	FusionAhrs.c	/^void FusionAhrsInitialise(FusionAhrs * const fusionAhrs, const float gain) {$/;"	f	typeref:typename:void
+FusionAhrsIsInitialising	FusionAhrs.c	/^bool FusionAhrsIsInitialising(const FusionAhrs * const fusionAhrs) {$/;"	f	typeref:typename:bool
+FusionAhrsReinitialise	FusionAhrs.c	/^void FusionAhrsReinitialise(FusionAhrs * const fusionAhrs) {$/;"	f	typeref:typename:void
+FusionAhrsSetGain	FusionAhrs.c	/^void FusionAhrsSetGain(FusionAhrs * const fusionAhrs, const float gain) {$/;"	f	typeref:typename:void
+FusionAhrsSetMagneticField	FusionAhrs.c	/^void FusionAhrsSetMagneticField(FusionAhrs * const fusionAhrs, const float minimumMagneticField,/;"	f	typeref:typename:void
+FusionAhrsSetYaw	FusionAhrs.c	/^void FusionAhrsSetYaw(FusionAhrs * const fusionAhrs, const float yaw) {$/;"	f	typeref:typename:void
+FusionAhrsUpdate	FusionAhrs.c	/^void FusionAhrsUpdate(FusionAhrs * const fusionAhrs, const FusionVector3 gyroscope, const Fusion/;"	f	typeref:typename:void
+FusionAhrsUpdateWithoutMagnetometer	FusionAhrs.c	/^void FusionAhrsUpdateWithoutMagnetometer(FusionAhrs * const fusionAhrs, const FusionVector3 gyro/;"	f	typeref:typename:void
+FusionBias	FusionBias.h	/^} FusionBias;$/;"	t	typeref:struct:__anon6bffbe2e0108
+FusionBiasInitialise	FusionBias.c	/^void FusionBiasInitialise(FusionBias * const fusionBias, const float threshold, const float samp/;"	f	typeref:typename:void
+FusionBiasIsActive	FusionBias.c	/^bool FusionBiasIsActive(FusionBias * const fusionBias) {$/;"	f	typeref:typename:bool
+FusionBiasUpdate	FusionBias.c	/^FusionVector3 FusionBiasUpdate(FusionBias * const fusionBias, FusionVector3 gyroscope) {$/;"	f	typeref:typename:FusionVector3
+FusionCalibrationInertial	FusionCalibration.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationInertial(const Fusio/;"	f	typeref:typename:FusionVector3
+FusionCalibrationMagnetic	FusionCalibration.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionCalibrationMagnetic(const Fusio/;"	f	typeref:typename:FusionVector3
+FusionCompassCalculateHeading	FusionCompass.c	/^float FusionCompassCalculateHeading(const FusionVector3 accelerometer, const FusionVector3 magne/;"	f	typeref:typename:float
+FusionDegreesToRadians	FusionTypes.h	/^static inline __attribute__((always_inline)) float FusionDegreesToRadians(const float degrees) {$/;"	f	typeref:typename:float
+FusionEulerAngles	FusionTypes.h	/^} FusionEulerAngles;$/;"	t	typeref:union:__anon7beb3444070a
+FusionFastInverseSqrt	FusionTypes.h	/^static inline __attribute__((always_inline)) float FusionFastInverseSqrt(const float x) {$/;"	f	typeref:typename:float
+FusionQuaternion	FusionTypes.h	/^} FusionQuaternion;$/;"	t	typeref:union:__anon7beb3444030a
+FusionQuaternionAdd	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionAdd(const FusionQu/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionConjugate	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionConjugate(const Fu/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionFastNormalise	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionFastNormalise(cons/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionMultiply	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiply(const Fus/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionMultiplyVector	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionMultiplyVector(con/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionNormalise	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionQuaternion FusionQuaternionNormalise(const Fu/;"	f	typeref:typename:FusionQuaternion
+FusionQuaternionToEulerAngles	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionEulerAngles FusionQuaternionToEulerAngles(con/;"	f	typeref:typename:FusionEulerAngles
+FusionQuaternionToRotationMatrix	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionRotationMatrix FusionQuaternionToRotationMatr/;"	f	typeref:typename:FusionRotationMatrix
+FusionRadiansToDegrees	FusionTypes.h	/^static inline __attribute__((always_inline)) float FusionRadiansToDegrees(const float radians) {$/;"	f	typeref:typename:float
+FusionRotationMatrix	FusionTypes.h	/^} FusionRotationMatrix;$/;"	t	typeref:union:__anon7beb3444050a
+FusionRotationMatrixMultiply	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionRotationMatrix FusionRotationMatrixMultiply(c/;"	f	typeref:typename:FusionRotationMatrix
+FusionRotationMatrixMultiplyVector	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionRotationMatrixMultiplyVector(co/;"	f	typeref:typename:FusionVector3
+FusionVector3	FusionTypes.h	/^} FusionVector3;$/;"	t	typeref:union:__anon7beb3444010a
+FusionVectorAdd	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorAdd(const FusionVector3 v/;"	f	typeref:typename:FusionVector3
+FusionVectorCrossProduct	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorCrossProduct(const Fusion/;"	f	typeref:typename:FusionVector3
+FusionVectorFastNormalise	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorFastNormalise(const Fusio/;"	f	typeref:typename:FusionVector3
+FusionVectorHadamardProduct	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorHadamardProduct(const Fus/;"	f	typeref:typename:FusionVector3
+FusionVectorMagnitude	FusionTypes.h	/^static inline __attribute__((always_inline)) float FusionVectorMagnitude(const FusionVector3 vec/;"	f	typeref:typename:float
+FusionVectorMagnitudeSquared	FusionTypes.h	/^static inline __attribute__((always_inline)) float FusionVectorMagnitudeSquared(const FusionVect/;"	f	typeref:typename:float
+FusionVectorMultiplyScalar	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorMultiplyScalar(const Fusi/;"	f	typeref:typename:FusionVector3
+FusionVectorNormalise	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorNormalise(const FusionVec/;"	f	typeref:typename:FusionVector3
+FusionVectorSubtract	FusionTypes.h	/^static inline __attribute__((always_inline)) FusionVector3 FusionVectorSubtract(const FusionVect/;"	f	typeref:typename:FusionVector3
+G	ICM20948.h	/^    const float G = 9.807f;$/;"	m	class:ICM20948	typeref:typename:const float
+GRP	util/ICM_20948_REGISTERS.h	/^	uint8_t GRP 					: 1;$/;"	m	struct:__anon6c8e081e5408	typeref:typename:uint8_t:1
+GYRO_AVGCFG	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_AVGCFG				: 3;$/;"	m	struct:__anon6c8e081e3e08	typeref:typename:uint8_t:3
+GYRO_CYCLE	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_CYCLE					: 1;$/;"	m	struct:__anon6c8e081e0408	typeref:typename:uint8_t:1
+GYRO_DLPFCFG	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_DLPFCFG			: 3;$/;"	m	struct:__anon6c8e081e3d08	typeref:typename:uint8_t:3
+GYRO_DLPF_BANDWIDTH_120HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_120HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_12106HZ	ICM20948.h	/^    	GYRO_DLPF_BANDWIDTH_12106HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_12HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_12HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_152HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_152HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_197HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_197HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_24HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_24HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_361HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_361HZ$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_51HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_51HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_DLPF_BANDWIDTH_6HZ	ICM20948.h	/^      GYRO_DLPF_BANDWIDTH_6HZ,$/;"	e	enum:ICM20948::GyroDlpfBandwidth
+GYRO_FCHOICE	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_FCHOICE			: 1;$/;"	m	struct:__anon6c8e081e3d08	typeref:typename:uint8_t:1
+GYRO_FS_SEL	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_FS_SEL				: 2;$/;"	m	struct:__anon6c8e081e3d08	typeref:typename:uint8_t:2
+GYRO_RANGE_1000DPS	ICM20948.h	/^      GYRO_RANGE_1000DPS,$/;"	e	enum:ICM20948::GyroRange
+GYRO_RANGE_2000DPS	ICM20948.h	/^      GYRO_RANGE_2000DPS$/;"	e	enum:ICM20948::GyroRange
+GYRO_RANGE_250DPS	ICM20948.h	/^      GYRO_RANGE_250DPS,$/;"	e	enum:ICM20948::GyroRange
+GYRO_RANGE_500DPS	ICM20948.h	/^      GYRO_RANGE_500DPS,$/;"	e	enum:ICM20948::GyroRange
+GYRO_SMPLRT_DIV	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_SMPLRT_DIV;$/;"	m	struct:__anon6c8e081e3c08	typeref:typename:uint8_t
+GYRO_XOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_XOUT_H;$/;"	m	struct:__anon6c8e081e1d08	typeref:typename:uint8_t
+GYRO_XOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_XOUT_L;$/;"	m	struct:__anon6c8e081e1e08	typeref:typename:uint8_t
+GYRO_X_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_X_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:1
+GYRO_YOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_YOUT_H;$/;"	m	struct:__anon6c8e081e1f08	typeref:typename:uint8_t
+GYRO_YOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_YOUT_L;$/;"	m	struct:__anon6c8e081e2008	typeref:typename:uint8_t
+GYRO_Y_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_Y_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:1
+GYRO_ZOUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_ZOUT_H;$/;"	m	struct:__anon6c8e081e2108	typeref:typename:uint8_t
+GYRO_ZOUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_ZOUT_L;$/;"	m	struct:__anon6c8e081e2208	typeref:typename:uint8_t
+GYRO_Z_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t GYRO_Z_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:1
+GyroDlpfBandwidth	ICM20948.h	/^    enum GyroDlpfBandwidth$/;"	g	class:ICM20948
+GyroRange	ICM20948.h	/^  	enum GyroRange$/;"	g	class:ICM20948
+HOFL	util/AK09916_REGISTERS.h	/^        uint8_t HOFL : 1;$/;"	m	struct:__anon16c1e4d40508	typeref:typename:uint8_t:1
+I2C_ADD_ICM20948	main.cpp	/^#define I2C_ADD_ICM20948 /;"	d	file:
+I2C_IF_DIS	util/ICM_20948_REGISTERS.h	/^	uint8_t	I2C_IF_DIS					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+I2C_LOST_ARB	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_LOST_ARB				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_MASTER_FREQ_HZ	ICM20948.cpp	/^#define I2C_MASTER_FREQ_HZ /;"	d	file:
+I2C_MASTER_FREQ_HZ	ICM_20948.cpp	/^#define I2C_MASTER_FREQ_HZ /;"	d	file:
+I2C_MASTER_NUM	ICM20948.cpp	/^#define I2C_MASTER_NUM /;"	d	file:
+I2C_MASTER_NUM	ICM_20948.cpp	/^#define I2C_MASTER_NUM /;"	d	file:
+I2C_MASTER_RX_BUF_DISABLE	ICM20948.cpp	/^#define I2C_MASTER_RX_BUF_DISABLE /;"	d	file:
+I2C_MASTER_RX_BUF_DISABLE	ICM_20948.cpp	/^#define I2C_MASTER_RX_BUF_DISABLE /;"	d	file:
+I2C_MASTER_SCL_IO	ICM20948.cpp	/^#define I2C_MASTER_SCL_IO /;"	d	file:
+I2C_MASTER_SCL_IO	ICM_20948.cpp	/^#define I2C_MASTER_SCL_IO /;"	d	file:
+I2C_MASTER_SDA_IO	ICM20948.cpp	/^#define I2C_MASTER_SDA_IO /;"	d	file:
+I2C_MASTER_SDA_IO	ICM_20948.cpp	/^#define I2C_MASTER_SDA_IO /;"	d	file:
+I2C_MASTER_TX_BUF_DISABLE	ICM20948.cpp	/^#define I2C_MASTER_TX_BUF_DISABLE /;"	d	file:
+I2C_MASTER_TX_BUF_DISABLE	ICM_20948.cpp	/^#define I2C_MASTER_TX_BUF_DISABLE /;"	d	file:
+I2C_MST_CLK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_CLK 			: 4;$/;"	m	struct:__anon6c8e081e5008	typeref:typename:uint8_t:4
+I2C_MST_CYCLE	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_CYCLE				: 1;$/;"	m	struct:__anon6c8e081e0408	typeref:typename:uint8_t:1
+I2C_MST_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_EN					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+I2C_MST_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_INT 				: 1;$/;"	m	struct:__anon6c8e081e1108	typeref:typename:uint8_t:1
+I2C_MST_INT_EN	util/ICM_20948_C.h	/^		uint8_t I2C_MST_INT_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+I2C_MST_INT_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_INT_EN				: 1;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:1
+I2C_MST_ODR_CONFIG	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_ODR_CONFIG 		: 4;$/;"	m	struct:__anon6c8e081e4f08	typeref:typename:uint8_t:4
+I2C_MST_P_NSR	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_P_NSR			: 1;$/;"	m	struct:__anon6c8e081e5008	typeref:typename:uint8_t:1
+I2C_MST_RST	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_MST_RST					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+I2C_SLV0_DELAY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV0_DELAY_EN 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+I2C_SLV0_NACK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV0_NACK				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_SLV1_DELAY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV1_DELAY_EN 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+I2C_SLV1_NACK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV1_NACK 				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_SLV2_DELAY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV2_DELAY_EN 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+I2C_SLV2_NACK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV2_NACK				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_SLV3_DELAY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV3_DELAY_EN 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+I2C_SLV3_NACK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV3_NACK				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_SLV4_DELAY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV4_DELAY_EN 		: 1;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:1
+I2C_SLV4_DONE	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV4_DONE				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+I2C_SLV4_NACK	util/ICM_20948_REGISTERS.h	/^	uint8_t I2C_SLV4_NACK				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+ICM20948	ICM20948.cpp	/^ICM20948::ICM20948(uint8_t address) {$/;"	f	class:ICM20948
+ICM20948	ICM20948.h	/^class ICM20948 {$/;"	c
+ICM20948_WHO_AM_I	ICM20948.h	/^    const uint8_t ICM20948_WHO_AM_I = 0xEA;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+ICM20948_h	ICM20948.h	/^#define ICM20948_h$/;"	d
+ICM_20948	ICM_20948.cpp	/^ICM_20948::ICM_20948()$/;"	f	class:ICM_20948
+ICM_20948	ICM_20948.h	/^class ICM_20948$/;"	c
+ICM_20948_ACCEL_CONFIG_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_CONFIG_2_t;$/;"	t	typeref:struct:__anon6c8e081e4b08
+ICM_20948_ACCEL_CONFIG_DLPCFG_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_ACCEL_CONFIG_DLPCFG_e;$/;"	t	typeref:enum:__anon0b6ce0200603
+ICM_20948_ACCEL_CONFIG_FS_SEL_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_ACCEL_CONFIG_FS_SEL_e;$/;"	t	typeref:enum:__anon0b6ce0200503
+ICM_20948_ACCEL_CONFIG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_CONFIG_t;$/;"	t	typeref:struct:__anon6c8e081e4a08
+ICM_20948_ACCEL_INTEL_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_INTEL_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e4808
+ICM_20948_ACCEL_SMPLRT_DIV_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_SMPLRT_DIV_1_t;$/;"	t	typeref:struct:__anon6c8e081e4608
+ICM_20948_ACCEL_SMPLRT_DIV_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_SMPLRT_DIV_2_t;$/;"	t	typeref:struct:__anon6c8e081e4708
+ICM_20948_ACCEL_WOM_THR_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_WOM_THR_t;$/;"	t	typeref:struct:__anon6c8e081e4908
+ICM_20948_ACCEL_XOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_XOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e1708
+ICM_20948_ACCEL_XOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_XOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e1808
+ICM_20948_ACCEL_YOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_YOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e1908
+ICM_20948_ACCEL_YOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_YOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e1a08
+ICM_20948_ACCEL_ZOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_ZOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e1b08
+ICM_20948_ACCEL_ZOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ACCEL_ZOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e1c08
+ICM_20948_AGMT_t	util/ICM_20948_C.h	/^	} ICM_20948_AGMT_t;$/;"	t	typeref:struct:__anon3aa6a2a90b08
+ICM_20948_ARD_UNUSED_PIN	ICM_20948.h	/^#define ICM_20948_ARD_UNUSED_PIN /;"	d
+ICM_20948_Clock_Auto	util/ICM_20948_ENUMERATIONS.h	/^	ICM_20948_Clock_Auto,$/;"	e	enum:__anon0b6ce0200203
+ICM_20948_Clock_Internal_20MHz	util/ICM_20948_ENUMERATIONS.h	/^	ICM_20948_Clock_Internal_20MHz = 0x00,$/;"	e	enum:__anon0b6ce0200203
+ICM_20948_Clock_TimingReset	util/ICM_20948_ENUMERATIONS.h	/^	ICM_20948_Clock_TimingReset = 0x07$/;"	e	enum:__anon0b6ce0200203
+ICM_20948_DATA_RDY_STATUS_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_DATA_RDY_STATUS_t;$/;"	t	typeref:struct:__anon6c8e081e2d08
+ICM_20948_DELAY_TIMEH_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_DELAY_TIMEH_t;$/;"	t	typeref:struct:__anon6c8e081e1508
+ICM_20948_DELAY_TIMEL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_DELAY_TIMEL_t;$/;"	t	typeref:struct:__anon6c8e081e1608
+ICM_20948_Device_t	util/ICM_20948_C.h	/^	} ICM_20948_Device_t;				 \/\/ Definition of device struct type$/;"	t	typeref:struct:__anon3aa6a2a90e08
+ICM_20948_EXT_SLV_SENS_DATA_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_EXT_SLV_SENS_DATA_t;$/;"	t	typeref:struct:__anon6c8e081e2508
+ICM_20948_FIFO_CFG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_CFG_t;$/;"	t	typeref:struct:__anon6c8e081e2e08
+ICM_20948_FIFO_COUNTH_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_COUNTH_t;$/;"	t	typeref:struct:__anon6c8e081e2a08
+ICM_20948_FIFO_COUNTL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_COUNTL_t;$/;"	t	typeref:struct:__anon6c8e081e2b08
+ICM_20948_FIFO_EN_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_EN_1_t;$/;"	t	typeref:struct:__anon6c8e081e2608
+ICM_20948_FIFO_EN_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_EN_2_t;$/;"	t	typeref:struct:__anon6c8e081e2708
+ICM_20948_FIFO_MODE_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_MODE_t;$/;"	t	typeref:struct:__anon6c8e081e2908
+ICM_20948_FIFO_RST_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_RST_t;$/;"	t	typeref:struct:__anon6c8e081e2808
+ICM_20948_FIFO_R_W_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FIFO_R_W_t;$/;"	t	typeref:struct:__anon6c8e081e2c08
+ICM_20948_FSYNC_CONFIG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_FSYNC_CONFIG_t;$/;"	t	typeref:struct:__anon6c8e081e4c08
+ICM_20948_GYRO_CONFIG_1_DLPCFG_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_GYRO_CONFIG_1_DLPCFG_e;$/;"	t	typeref:enum:__anon0b6ce0200403
+ICM_20948_GYRO_CONFIG_1_FS_SEL_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_GYRO_CONFIG_1_FS_SEL_e;$/;"	t	typeref:enum:__anon0b6ce0200303
+ICM_20948_GYRO_CONFIG_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_CONFIG_1_t;$/;"	t	typeref:struct:__anon6c8e081e3d08
+ICM_20948_GYRO_CONFIG_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_CONFIG_2_t;$/;"	t	typeref:struct:__anon6c8e081e3e08
+ICM_20948_GYRO_SMPLRT_DIV_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_SMPLRT_DIV_t;$/;"	t	typeref:struct:__anon6c8e081e3c08
+ICM_20948_GYRO_XOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_XOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e1d08
+ICM_20948_GYRO_XOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_XOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e1e08
+ICM_20948_GYRO_YOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_YOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e1f08
+ICM_20948_GYRO_YOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_YOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e2008
+ICM_20948_GYRO_ZOUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_ZOUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e2108
+ICM_20948_GYRO_ZOUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_GYRO_ZOUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e2208
+ICM_20948_I2C	ICM_20948.cpp	/^ICM_20948_I2C::ICM_20948_I2C()$/;"	f	class:ICM_20948_I2C
+ICM_20948_I2C	ICM_20948.h	/^class ICM_20948_I2C : public ICM_20948$/;"	c
+ICM_20948_I2C_ADDR_AD0	util/ICM_20948_C.h	/^#define ICM_20948_I2C_ADDR_AD0 /;"	d
+ICM_20948_I2C_ADDR_AD1	util/ICM_20948_C.h	/^#define ICM_20948_I2C_ADDR_AD1 /;"	d
+ICM_20948_I2C_MST_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_MST_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e5008
+ICM_20948_I2C_MST_DELAY_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_MST_DELAY_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e5108
+ICM_20948_I2C_MST_ODR_CONFIG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_MST_ODR_CONFIG_t;$/;"	t	typeref:struct:__anon6c8e081e4f08
+ICM_20948_I2C_MST_STATUS_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_MST_STATUS_t;$/;"	t	typeref:struct:__anon6c8e081e1008
+ICM_20948_I2C_SLV4_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLV4_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e5608
+ICM_20948_I2C_SLV4_DI_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLV4_DI_t;$/;"	t	typeref:struct:__anon6c8e081e5708
+ICM_20948_I2C_SLVX_ADDR_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLVX_ADDR_t;$/;"	t	typeref:struct:__anon6c8e081e5208
+ICM_20948_I2C_SLVX_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLVX_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e5408
+ICM_20948_I2C_SLVX_DO_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLVX_DO_t;$/;"	t	typeref:struct:__anon6c8e081e5508
+ICM_20948_I2C_SLVX_REG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_I2C_SLVX_REG_t;$/;"	t	typeref:struct:__anon6c8e081e5308
+ICM_20948_INT_ENABLE_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_ENABLE_1_t;$/;"	t	typeref:struct:__anon6c8e081e0908
+ICM_20948_INT_ENABLE_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_ENABLE_2_t;$/;"	t	typeref:union:__anon6c8e081e0a0a
+ICM_20948_INT_ENABLE_3_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_ENABLE_3_t;$/;"	t	typeref:union:__anon6c8e081e0d0a
+ICM_20948_INT_ENABLE_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_ENABLE_t;$/;"	t	typeref:struct:__anon6c8e081e0808
+ICM_20948_INT_PIN_CFG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_PIN_CFG_t;$/;"	t	typeref:struct:__anon6c8e081e0708
+ICM_20948_INT_STATUS_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_STATUS_1_t;$/;"	t	typeref:struct:__anon6c8e081e1208
+ICM_20948_INT_STATUS_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_STATUS_2_t;$/;"	t	typeref:struct:__anon6c8e081e1308
+ICM_20948_INT_STATUS_3_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_STATUS_3_t;$/;"	t	typeref:struct:__anon6c8e081e1408
+ICM_20948_INT_STATUS_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_INT_STATUS_t;$/;"	t	typeref:struct:__anon6c8e081e1108
+ICM_20948_INT_enable_t	util/ICM_20948_C.h	/^	} ICM_20948_INT_enable_t;$/;"	t	typeref:struct:__anon3aa6a2a90808
+ICM_20948_InternalSensorID_bm	util/ICM_20948_C.h	/^	} ICM_20948_InternalSensorID_bm;	   \/\/ A bitmask of internal sensor IDs$/;"	t	typeref:enum:__anon3aa6a2a90203
+ICM_20948_Internal_Acc	util/ICM_20948_C.h	/^		ICM_20948_Internal_Acc = (1 << 0),$/;"	e	enum:__anon3aa6a2a90203
+ICM_20948_Internal_Gyr	util/ICM_20948_C.h	/^		ICM_20948_Internal_Gyr = (1 << 1),$/;"	e	enum:__anon3aa6a2a90203
+ICM_20948_Internal_Mag	util/ICM_20948_C.h	/^		ICM_20948_Internal_Mag = (1 << 2),$/;"	e	enum:__anon3aa6a2a90203
+ICM_20948_Internal_Mst	util/ICM_20948_C.h	/^		ICM_20948_Internal_Mst = (1 << 4), \/\/ I2C Master Ineternal$/;"	e	enum:__anon3aa6a2a90203
+ICM_20948_Internal_Tmp	util/ICM_20948_C.h	/^		ICM_20948_Internal_Tmp = (1 << 3),$/;"	e	enum:__anon3aa6a2a90203
+ICM_20948_LP_CONFIG_CYCLE_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_LP_CONFIG_CYCLE_e;$/;"	t	typeref:enum:__anon0b6ce0200103
+ICM_20948_LP_CONFIG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_LP_CONFIG_t;$/;"	t	typeref:struct:__anon6c8e081e0408
+ICM_20948_MOD_CTRL_USR_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_MOD_CTRL_USR_t;$/;"	t	typeref:struct:__anon6c8e081e4e08
+ICM_20948_ODR_ALIGN_EN_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ODR_ALIGN_EN_t;$/;"	t	typeref:struct:__anon6c8e081e4508
+ICM_20948_PWR_MGMT_1_CLKSEL_e	util/ICM_20948_ENUMERATIONS.h	/^}ICM_20948_PWR_MGMT_1_CLKSEL_e;$/;"	t	typeref:enum:__anon0b6ce0200203
+ICM_20948_PWR_MGMT_1_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_PWR_MGMT_1_t;$/;"	t	typeref:struct:__anon6c8e081e0508
+ICM_20948_PWR_MGMT_2_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_PWR_MGMT_2_t;$/;"	t	typeref:struct:__anon6c8e081e0608
+ICM_20948_REG_BANK_SEL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_REG_BANK_SEL_t;$/;"	t	typeref:struct:__anon6c8e081e5808
+ICM_20948_Reg_Addr_e	util/ICM_20948_REGISTERS.h	/^}ICM_20948_Reg_Addr_e;	\/\/ These enums are not needed for the user, so they stay in this scope /;"	t	typeref:enum:__anon6c8e081e0103
+ICM_20948_SELF_TEST_X_ACCEL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_X_ACCEL_t;$/;"	t	typeref:struct:__anon6c8e081e3208
+ICM_20948_SELF_TEST_X_GYRO_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_X_GYRO_t;$/;"	t	typeref:struct:__anon6c8e081e2f08
+ICM_20948_SELF_TEST_Y_ACCEL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_Y_ACCEL_t;$/;"	t	typeref:struct:__anon6c8e081e3308
+ICM_20948_SELF_TEST_Y_GYRO_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_Y_GYRO_t;$/;"	t	typeref:struct:__anon6c8e081e3008
+ICM_20948_SELF_TEST_Z_ACCEL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_Z_ACCEL_t;$/;"	t	typeref:struct:__anon6c8e081e3408
+ICM_20948_SELF_TEST_Z_GYRO_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_SELF_TEST_Z_GYRO_t;$/;"	t	typeref:struct:__anon6c8e081e3108
+ICM_20948_Sample_Mode_Continuous	util/ICM_20948_ENUMERATIONS.h	/^	ICM_20948_Sample_Mode_Continuous = 0x00,$/;"	e	enum:__anon0b6ce0200103
+ICM_20948_Sample_Mode_Cycled	util/ICM_20948_ENUMERATIONS.h	/^	ICM_20948_Sample_Mode_Cycled,$/;"	e	enum:__anon0b6ce0200103
+ICM_20948_Serif_t	util/ICM_20948_C.h	/^	} ICM_20948_Serif_t;					  \/\/ This is the vtable of serial interface functions$/;"	t	typeref:struct:__anon3aa6a2a90d08
+ICM_20948_Stat_Err	util/ICM_20948_C.h	/^		ICM_20948_Stat_Err,		  \/\/ A general error$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_InvalSensor	util/ICM_20948_C.h	/^		ICM_20948_Stat_InvalSensor, \/\/ Tried to apply a function to a sensor that does not support i/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_NUM	util/ICM_20948_C.h	/^		ICM_20948_Stat_NUM,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_NoData	util/ICM_20948_C.h	/^		ICM_20948_Stat_NoData,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_NotImpl	util/ICM_20948_C.h	/^		ICM_20948_Stat_NotImpl,   \/\/ Returned by virtual functions that are not implemented$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_Ok	util/ICM_20948_C.h	/^		ICM_20948_Stat_Ok = 0x00, \/\/ The only return code that means all is well$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_ParamErr	util/ICM_20948_C.h	/^		ICM_20948_Stat_ParamErr,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_SensorNotSupported	util/ICM_20948_C.h	/^		ICM_20948_Stat_SensorNotSupported,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_Unknown	util/ICM_20948_C.h	/^		ICM_20948_Stat_Unknown,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Stat_WrongID	util/ICM_20948_C.h	/^		ICM_20948_Stat_WrongID,$/;"	e	enum:__anon3aa6a2a90103
+ICM_20948_Status_e	util/ICM_20948_C.h	/^	} ICM_20948_Status_e;$/;"	t	typeref:enum:__anon3aa6a2a90103
+ICM_20948_TEMP_CONFIG_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_TEMP_CONFIG_t;$/;"	t	typeref:struct:__anon6c8e081e4d08
+ICM_20948_TEMP_OUT_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_TEMP_OUT_H_t;$/;"	t	typeref:struct:__anon6c8e081e2308
+ICM_20948_TEMP_OUT_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_TEMP_OUT_L_t;$/;"	t	typeref:struct:__anon6c8e081e2408
+ICM_20948_TIMEBASE_CORRECTION_PLL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_TIMEBASE_CORRECTION_PLL_t;$/;"	t	typeref:struct:__anon6c8e081e3b08
+ICM_20948_USER_CTRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_USER_CTRL_t;$/;"	t	typeref:struct:__anon6c8e081e0308
+ICM_20948_WHOAMI	util/ICM_20948_C.h	/^#define ICM_20948_WHOAMI /;"	d
+ICM_20948_WHO_AM_I_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_WHO_AM_I_t;$/;"	t	typeref:struct:__anon6c8e081e0208
+ICM_20948_XA_OFFS_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_XA_OFFS_H_t;$/;"	t	typeref:struct:__anon6c8e081e3508
+ICM_20948_XA_OFFS_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_XA_OFFS_L_t;$/;"	t	typeref:struct:__anon6c8e081e3608
+ICM_20948_XG_OFFS_USRH_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_XG_OFFS_USRH_t;$/;"	t	typeref:struct:__anon6c8e081e3f08
+ICM_20948_XG_OFFS_USRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_XG_OFFS_USRL_t;$/;"	t	typeref:struct:__anon6c8e081e4008
+ICM_20948_YA_OFFS_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_YA_OFFS_H_t;$/;"	t	typeref:struct:__anon6c8e081e3708
+ICM_20948_YA_OFFS_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_YA_OFFS_L_t;$/;"	t	typeref:struct:__anon6c8e081e3808
+ICM_20948_YG_OFFS_USRH_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_YG_OFFS_USRH_t;$/;"	t	typeref:struct:__anon6c8e081e4108
+ICM_20948_YG_OFFS_USRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_YG_OFFS_USRL_t;$/;"	t	typeref:struct:__anon6c8e081e4208
+ICM_20948_ZA_OFFS_H_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ZA_OFFS_H_t;$/;"	t	typeref:struct:__anon6c8e081e3908
+ICM_20948_ZA_OFFS_L_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ZA_OFFS_L_t;$/;"	t	typeref:struct:__anon6c8e081e3a08
+ICM_20948_ZG_OFFS_USRH_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ZG_OFFS_USRH_t;$/;"	t	typeref:struct:__anon6c8e081e4308
+ICM_20948_ZG_OFFS_USRL_t	util/ICM_20948_REGISTERS.h	/^}ICM_20948_ZG_OFFS_USRL_t;$/;"	t	typeref:struct:__anon6c8e081e4408
+ICM_20948_axis1bit16_t	util/ICM_20948_C.h	/^	} ICM_20948_axis1bit16_t;$/;"	t	typeref:union:__anon3aa6a2a9040a
+ICM_20948_axis3bit16_t	util/ICM_20948_C.h	/^	} ICM_20948_axis3bit16_t;$/;"	t	typeref:union:__anon3aa6a2a9030a
+ICM_20948_axis3named_t	util/ICM_20948_C.h	/^	} ICM_20948_axis3named_t;$/;"	t	typeref:union:__anon3aa6a2a9090a
+ICM_20948_check_id	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_check_id(ICM_20948_Device_t *pdev)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_data_ready	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_data_ready(ICM_20948_Device_t *pdev)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_dlpcfg_t	util/ICM_20948_C.h	/^	} ICM_20948_dlpcfg_t; \/\/ Holds digital low pass filter settings. Members are type ICM_20948_A/;"	t	typeref:struct:__anon3aa6a2a90608
+ICM_20948_enable_dlpf	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_enable_dlpf(ICM_20948_Device_t *pdev, ICM_20948_InternalSensorID_bm/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_execute_r	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_execute_r(ICM_20948_Device_t *pdev, uint8_t regaddr, uint8_t *pdata/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_execute_w	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_execute_w(ICM_20948_Device_t *pdev, uint8_t regaddr, uint8_t *pdata/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_fss_t	util/ICM_20948_C.h	/^	} ICM_20948_fss_t; \/\/ Holds full-scale settings to be able to extract measurements with units$/;"	t	typeref:struct:__anon3aa6a2a90508
+ICM_20948_get_agmt	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_get_agmt(ICM_20948_Device_t *pdev, ICM_20948_AGMT_t *pagmt)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_get_who_am_i	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_get_who_am_i(ICM_20948_Device_t *pdev, uint8_t *whoami)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_configure_slave	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_configure_slave(ICM_20948_Device_t *pdev, uint8_t slave,/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_enable	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_enable(ICM_20948_Device_t *pdev, bool enable)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_passthrough	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_passthrough(ICM_20948_Device_t *pdev, bool passthrough)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_reset	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_reset(ICM_20948_Device_t *pdev)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_single_r	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_single_r(ICM_20948_Device_t *pdev, uint8_t addr, uint8_t/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_single_w	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_single_w(ICM_20948_Device_t *pdev, uint8_t addr, uint8_t/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_i2c_master_slv4_txn	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_i2c_master_slv4_txn(ICM_20948_Device_t *pdev, uint8_t addr, uint8_t/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_int_enable	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_int_enable(ICM_20948_Device_t *pdev, ICM_20948_INT_enable_t *write,/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_int_pin_cfg	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_int_pin_cfg(ICM_20948_Device_t *pdev, ICM_20948_INT_PIN_CFG_t *writ/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_link_serif	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_link_serif(ICM_20948_Device_t *pdev, const ICM_20948_Serif_t *s)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_low_power	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_low_power(ICM_20948_Device_t *pdev, bool on)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_read_I2C	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948_read_I2C(uint8_t reg, uint8_t *buff, uint32_t len, void *user)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_bank	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_bank(ICM_20948_Device_t *pdev, uint8_t bank)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_clock_source	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_clock_source(ICM_20948_Device_t *pdev, ICM_20948_PWR_MGMT_1_CLK/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_dlpf_cfg	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_dlpf_cfg(ICM_20948_Device_t *pdev, ICM_20948_InternalSensorID_b/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_full_scale	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_full_scale(ICM_20948_Device_t *pdev, ICM_20948_InternalSensorID/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_sample_mode	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_sample_mode(ICM_20948_Device_t *pdev, ICM_20948_InternalSensorI/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_set_sample_rate	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_set_sample_rate(ICM_20948_Device_t *pdev, ICM_20948_InternalSensorI/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_sleep	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_sleep(ICM_20948_Device_t *pdev, bool on)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_smplrt_t	util/ICM_20948_C.h	/^	} ICM_20948_smplrt_t;$/;"	t	typeref:struct:__anon3aa6a2a90708
+ICM_20948_sw_reset	util/ICM_20948_C.c	/^ICM_20948_Status_e ICM_20948_sw_reset(ICM_20948_Device_t *pdev)$/;"	f	typeref:typename:ICM_20948_Status_e
+ICM_20948_write_I2C	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948_write_I2C(uint8_t reg, uint8_t *data, uint32_t len, void *user)$/;"	f	typeref:typename:ICM_20948_Status_e
+ID	util/ICM_20948_REGISTERS.h	/^	uint8_t ID 						: 7;$/;"	m	struct:__anon6c8e081e5208	typeref:typename:uint8_t:7
+INITIALISATION_PERIOD	FusionAhrs.c	/^#define INITIALISATION_PERIOD /;"	d	file:
+INITIAL_GAIN	FusionAhrs.c	/^#define INITIAL_GAIN /;"	d	file:
+INT1_ACTL	util/ICM_20948_REGISTERS.h	/^	uint8_t INT1_ACTL					: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+INT1_LATCH_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t INT1_LATCH_EN				: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+INT1_OPEN	util/ICM_20948_REGISTERS.h	/^	uint8_t INT1_OPEN					: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+INT_ANYRD_2CLEAR	util/ICM_20948_REGISTERS.h	/^	uint8_t INT_ANYRD_2CLEAR 			: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+INT_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t INT_EN 					: 1;$/;"	m	struct:__anon6c8e081e5608	typeref:typename:uint8_t:1
+KHZ	ICM20948.cpp	/^#define KHZ /;"	d	file:
+KHZ	ICM_20948.cpp	/^#define KHZ /;"	d	file:
+LENG	util/ICM_20948_REGISTERS.h	/^	uint8_t LENG					: 4;$/;"	m	struct:__anon6c8e081e5408	typeref:typename:uint8_t:4
+LP_ACCEL_ODR_0_24HZ	ICM20948.h	/^      LP_ACCEL_ODR_0_24HZ = 0,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_0_49HZ	ICM20948.h	/^      LP_ACCEL_ODR_0_49HZ = 1,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_0_98HZ	ICM20948.h	/^      LP_ACCEL_ODR_0_98HZ = 2,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_125HZ	ICM20948.h	/^      LP_ACCEL_ODR_125HZ = 9,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_15_63HZ	ICM20948.h	/^      LP_ACCEL_ODR_15_63HZ = 6,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_1_95HZ	ICM20948.h	/^      LP_ACCEL_ODR_1_95HZ = 3,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_250HZ	ICM20948.h	/^      LP_ACCEL_ODR_250HZ = 10,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_31_25HZ	ICM20948.h	/^      LP_ACCEL_ODR_31_25HZ = 7,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_3_91HZ	ICM20948.h	/^      LP_ACCEL_ODR_3_91HZ = 4,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_500HZ	ICM20948.h	/^      LP_ACCEL_ODR_500HZ = 11$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_62_50HZ	ICM20948.h	/^      LP_ACCEL_ODR_62_50HZ = 8,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_ACCEL_ODR_7_81HZ	ICM20948.h	/^      LP_ACCEL_ODR_7_81HZ = 5,$/;"	e	enum:ICM20948::LpAccelOdr
+LP_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t LP_EN						: 1;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:1
+LpAccelOdr	ICM20948.h	/^    enum LpAccelOdr$/;"	g	class:ICM20948
+MAG_AK09916_I2C_ADDR	ICM20948.h	/^		const uint8_t MAG_AK09916_I2C_ADDR = 0x0C;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_AK09916_I2C_ADDR	util/ICM_20948_C.h	/^#define MAG_AK09916_I2C_ADDR /;"	d
+MAG_AK09916_WHO_AM_I	ICM20948.h	/^		const uint16_t MAG_AK09916_WHO_AM_I = 0x4809;$/;"	m	class:ICM20948	typeref:typename:const uint16_t
+MAG_AK09916_WHO_AM_I	util/ICM_20948_C.h	/^#define MAG_AK09916_WHO_AM_I /;"	d
+MAG_CNTL2	ICM20948.h	/^		const uint8_t MAG_CNTL2 = 0x31;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL2_MODE_100HZ	ICM20948.h	/^		const uint8_t MAG_CNTL2_MODE_100HZ = 0x08;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL2_MODE_10HZ	ICM20948.h	/^		const uint8_t MAG_CNTL2_MODE_10HZ = 0x02;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL2_MODE_50HZ	ICM20948.h	/^		const uint8_t MAG_CNTL2_MODE_50HZ = 0x06;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL2_POWER_DOWN	ICM20948.h	/^		const uint8_t MAG_CNTL2_POWER_DOWN = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL3	ICM20948.h	/^		const uint8_t MAG_CNTL3 = 0x32;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_CNTL3_RESET	ICM20948.h	/^		const uint8_t MAG_CNTL3_RESET = 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_DATA_LENGTH	ICM20948.h	/^		const uint8_t MAG_DATA_LENGTH = 6; \/\/ Bytes$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_HXL	ICM20948.h	/^		const uint8_t MAG_HXL = 0x11;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MAG_REG_WHO_AM_I	util/ICM_20948_C.h	/^#define MAG_REG_WHO_AM_I /;"	d
+MAG_WHO_AM_I	ICM20948.h	/^		const uint8_t MAG_WHO_AM_I = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+MODE	util/AK09916_REGISTERS.h	/^        uint8_t MODE : 5;$/;"	m	struct:__anon16c1e4d40608	typeref:typename:uint8_t:5
+MULT_MST_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t MULT_MST_EN 			: 1;$/;"	m	struct:__anon6c8e081e5008	typeref:typename:uint8_t:1
+M_PI	FusionTypes.h	/^#define M_PI /;"	d
+M_REG_CNTL2	util/ICM_20948_REGISTERS.h	/^	M_REG_CNTL2 = 0x31,$/;"	e	enum:__anon6c8e081e0103
+M_REG_CNTL3	util/ICM_20948_REGISTERS.h	/^	M_REG_CNTL3,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HXH	util/ICM_20948_REGISTERS.h	/^	M_REG_HXH,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HXL	util/ICM_20948_REGISTERS.h	/^	M_REG_HXL,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HYH	util/ICM_20948_REGISTERS.h	/^	M_REG_HYH,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HYL	util/ICM_20948_REGISTERS.h	/^	M_REG_HYL,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HZH	util/ICM_20948_REGISTERS.h	/^	M_REG_HZH,$/;"	e	enum:__anon6c8e081e0103
+M_REG_HZL	util/ICM_20948_REGISTERS.h	/^	M_REG_HZL,$/;"	e	enum:__anon6c8e081e0103
+M_REG_ST1	util/ICM_20948_REGISTERS.h	/^	M_REG_ST1 = 0x10,$/;"	e	enum:__anon6c8e081e0103
+M_REG_ST2	util/ICM_20948_REGISTERS.h	/^	M_REG_ST2,$/;"	e	enum:__anon6c8e081e0103
+M_REG_TS1	util/ICM_20948_REGISTERS.h	/^	M_REG_TS1,$/;"	e	enum:__anon6c8e081e0103
+M_REG_TS2	util/ICM_20948_REGISTERS.h	/^	M_REG_TS2,$/;"	e	enum:__anon6c8e081e0103
+M_REG_WIA2	util/ICM_20948_REGISTERS.h	/^	M_REG_WIA2 = 0x01,$/;"	e	enum:__anon6c8e081e0103
+NACK_VAL	ICM20948.cpp	/^#define NACK_VAL /;"	d	file:
+NACK_VAL	ICM_20948.cpp	/^#define NACK_VAL /;"	d	file:
+NullSerif	util/ICM_20948_C.c	/^const ICM_20948_Serif_t NullSerif = {$/;"	v	typeref:typename:const ICM_20948_Serif_t
+ODR_ALIGN_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t ODR_ALIGN_EN 			: 1;$/;"	m	struct:__anon6c8e081e4508	typeref:typename:uint8_t:1
+PASS_THROUGH	util/ICM_20948_REGISTERS.h	/^	uint8_t PASS_THROUGH				: 1;$/;"	m	struct:__anon6c8e081e1008	typeref:typename:uint8_t:1
+PLL_RDY_EN	util/ICM_20948_C.h	/^		uint8_t PLL_RDY_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+PLL_RDY_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t PLL_RDY_INT					: 1;$/;"	m	struct:__anon6c8e081e1108	typeref:typename:uint8_t:1
+PLL_READY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t PLL_READY_EN				: 1;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:1
+Q	FusionAhrs.c	/^#define Q /;"	d	file:
+Q	FusionTypes.h	/^#define Q /;"	d
+R	FusionTypes.h	/^#define R /;"	d
+RAW_DATA_0_RDY_EN	util/ICM_20948_C.h	/^		uint8_t RAW_DATA_0_RDY_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+RAW_DATA_0_RDY_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t RAW_DATA_0_RDY_EN			: 1;$/;"	m	struct:__anon6c8e081e0908	typeref:typename:uint8_t:1
+RAW_DATA_0_RDY_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t RAW_DATA_0_RDY_INT			: 1;$/;"	m	struct:__anon6c8e081e1208	typeref:typename:uint8_t:1
+RAW_DATA_RDY	util/ICM_20948_REGISTERS.h	/^	uint8_t RAW_DATA_RDY 			: 4;$/;"	m	struct:__anon6c8e081e2d08	typeref:typename:uint8_t:4
+READ_BIT	ICM20948.cpp	/^#define READ_BIT /;"	d	file:
+READ_BIT	ICM_20948.cpp	/^#define READ_BIT /;"	d	file:
+REG	util/ICM_20948_REGISTERS.h	/^	uint8_t REG;	$/;"	m	struct:__anon6c8e081e5308	typeref:typename:uint8_t
+REG_BANK_SEL	ICM20948.h	/^    const uint8_t REG_BANK_SEL = 0x7F;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+REG_BANK_SEL	util/ICM_20948_REGISTERS.h	/^	REG_BANK_SEL = 0x7F,$/;"	e	enum:__anon6c8e081e0103
+REG_BANK_SEL_USER_BANK_0	ICM20948.h	/^    const uint8_t REG_BANK_SEL_USER_BANK_0 = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+REG_BANK_SEL_USER_BANK_1	ICM20948.h	/^    const uint8_t REG_BANK_SEL_USER_BANK_1 = 0x10;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+REG_BANK_SEL_USER_BANK_2	ICM20948.h	/^    const uint8_t REG_BANK_SEL_USER_BANK_2 = 0x20;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+REG_BANK_SEL_USER_BANK_3	ICM20948.h	/^    const uint8_t REG_BANK_SEL_USER_BANK_3 = 0x30;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+REG_DIS	util/ICM_20948_REGISTERS.h	/^	uint8_t REG_DIS					: 1;$/;"	m	struct:__anon6c8e081e5408	typeref:typename:uint8_t:1
+REG_DIS	util/ICM_20948_REGISTERS.h	/^	uint8_t REG_DIS 				: 1;$/;"	m	struct:__anon6c8e081e5608	typeref:typename:uint8_t:1
+REG_LP_DMP_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t REG_LP_DMP_EN			: 1;$/;"	m	struct:__anon6c8e081e4e08	typeref:typename:uint8_t:1
+REG_WOF_EN	util/ICM_20948_C.h	/^		uint8_t REG_WOF_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+REG_WOF_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t REG_WOF_EN					: 1;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:1
+RNW	util/ICM_20948_REGISTERS.h	/^	uint8_t RNW 					: 1;$/;"	m	struct:__anon6c8e081e5208	typeref:typename:uint8_t:1
+SLEEP	util/ICM_20948_REGISTERS.h	/^	uint8_t SLEEP						: 1;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:1
+SLV_0_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t SLV_0_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2608	typeref:typename:uint8_t:1
+SLV_1_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t SLV_1_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2608	typeref:typename:uint8_t:1
+SLV_2_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t SLV_2_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2608	typeref:typename:uint8_t:1
+SLV_3_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t SLV_3_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2608	typeref:typename:uint8_t:1
+SRAM_RST	util/ICM_20948_REGISTERS.h	/^	uint8_t SRAM_RST					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+SRST	util/AK09916_REGISTERS.h	/^        uint8_t SRST : 1;$/;"	m	struct:__anon16c1e4d40708	typeref:typename:uint8_t:1
+STATIONARY_PERIOD	FusionBias.c	/^#define STATIONARY_PERIOD /;"	d	file:
+TBC_PLL	util/ICM_20948_REGISTERS.h	/^	uint8_t TBC_PLL;$/;"	m	struct:__anon6c8e081e3b08	typeref:typename:uint8_t
+TEMP_DIS	util/ICM_20948_REGISTERS.h	/^	uint8_t TEMP_DIS					: 1;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:1
+TEMP_DLPFCFG	util/ICM_20948_REGISTERS.h	/^	uint8_t TEMP_DLPFCFG			: 3;$/;"	m	struct:__anon6c8e081e4d08	typeref:typename:uint8_t:3
+TEMP_FIFO_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t TEMP_FIFO_EN			: 1;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:1
+TEMP_OUT_H	util/ICM_20948_REGISTERS.h	/^	uint8_t TEMP_OUT_H;$/;"	m	struct:__anon6c8e081e2308	typeref:typename:uint8_t
+TEMP_OUT_L	util/ICM_20948_REGISTERS.h	/^	uint8_t TEMP_OUT_L;$/;"	m	struct:__anon6c8e081e2408	typeref:typename:uint8_t
+UB0_ACCEL_XOUT_H	ICM20948.h	/^    const uint8_t UB0_ACCEL_XOUT_H = 0x2D;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_EXT_SLV_SENS_DATA_00	ICM20948.h	/^    const uint8_t UB0_EXT_SLV_SENS_DATA_00 = 0x3B;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_INT_ENABLE_1	ICM20948.h	/^    const uint8_t UB0_INT_ENABLE_1 = 0x11;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_INT_ENABLE_1_DIS	ICM20948.h	/^    const uint8_t UB0_INT_ENABLE_1_DIS = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_INT_ENABLE_1_RAW_RDY_EN	ICM20948.h	/^    const uint8_t UB0_INT_ENABLE_1_RAW_RDY_EN = 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_INT_PIN_CFG	ICM20948.h	/^    const uint8_t UB0_INT_PIN_CFG = 0x0F;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_INT_PIN_CFG_HIGH_50US	ICM20948.h	/^    const uint8_t UB0_INT_PIN_CFG_HIGH_50US = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_PWR_MGMNT_1	ICM20948.h	/^    const uint8_t UB0_PWR_MGMNT_1 = 0x06;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_PWR_MGMNT_1_CLOCK_SEL_AUTO	ICM20948.h	/^    const uint8_t UB0_PWR_MGMNT_1_CLOCK_SEL_AUTO = 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_PWR_MGMNT_1_DEV_RESET	ICM20948.h	/^    const uint8_t UB0_PWR_MGMNT_1_DEV_RESET = 0x80;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_PWR_MGMNT_2	ICM20948.h	/^    const uint8_t UB0_PWR_MGMNT_2 = 0x07;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_PWR_MGMNT_2_SEN_ENABLE	ICM20948.h	/^    const uint8_t UB0_PWR_MGMNT_2_SEN_ENABLE = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_USER_CTRL	ICM20948.h	/^		const uint8_t UB0_USER_CTRL = 0x03;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_USER_CTRL_I2C_MST_EN	ICM20948.h	/^		const uint8_t UB0_USER_CTRL_I2C_MST_EN = 0x20;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB0_WHO_AM_I	ICM20948.h	/^    const uint8_t UB0_WHO_AM_I = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG = 0x14;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_111HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_111HZ = 0b00010000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_1209HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_1209HZ = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_12HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_12HZ  = 0b00101000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_246HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_246HZ = 0x00 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_24HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_24HZ  = 0b00100000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_473HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_473HZ = 0b00111000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_50HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_50HZ  = 0b00011000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_DLPFCFG_6HZ	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_DLPFCFG_6HZ   = 0b00110000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_FS_SEL_16G	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_FS_SEL_16G = 0x06;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_FS_SEL_2G	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_FS_SEL_2G = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_FS_SEL_4G	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_FS_SEL_4G = 0x02;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_CONFIG_FS_SEL_8G	ICM20948.h	/^    const uint8_t UB2_ACCEL_CONFIG_FS_SEL_8G = 0x04;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_SMPLRT_DIV_1	ICM20948.h	/^    const uint8_t UB2_ACCEL_SMPLRT_DIV_1 = 0x10;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_ACCEL_SMPLRT_DIV_2	ICM20948.h	/^    const uint8_t UB2_ACCEL_SMPLRT_DIV_2 = 0x11;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1 = 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_120HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_120HZ = 0b00010000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_12106HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_12106HZ = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_12HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_12HZ  = 0b00101000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_152HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_152HZ = 0b00001000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_197HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_197HZ = 0x00 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_24HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_24HZ  = 0b00100000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_361HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_361HZ = 0b00111000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_51HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_51HZ  = 0b00011000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_DLPFCFG_6HZ	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_DLPFCFG_6HZ   = 0b00110000 | 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_FS_SEL_1000DPS	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_FS_SEL_1000DPS = 0x04;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_FS_SEL_2000DPS	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_FS_SEL_2000DPS = 0x06;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_FS_SEL_250DPS	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_FS_SEL_250DPS = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_CONFIG_1_FS_SEL_500DPS	ICM20948.h	/^    const uint8_t UB2_GYRO_CONFIG_1_FS_SEL_500DPS = 0x02;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB2_GYRO_SMPLRT_DIV	ICM20948.h	/^    const uint8_t UB2_GYRO_SMPLRT_DIV = 0x00;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_MST_CTRL	ICM20948.h	/^    const uint8_t UB3_I2C_MST_CTRL = 0x01;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_MST_CTRL_CLK_400KHZ	ICM20948.h	/^    const uint8_t UB3_I2C_MST_CTRL_CLK_400KHZ = 0x07; \/\/ Gives 345.6kHz and is recommended to /;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_ADDR	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_ADDR = 0x03;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_ADDR_READ_FLAG	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_ADDR_READ_FLAG = 0x80;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_CTRL	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_CTRL = 0x05;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_CTRL_EN	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_CTRL_EN = 0x80;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_DO	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_DO = 0x06;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV0_REG	ICM20948.h	/^    const uint8_t UB3_I2C_SLV0_REG = 0x04;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV1_ADDR	ICM20948.h	/^	const uint8_t UB3_I2C_SLV1_ADDR = 0x07;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV1_CTRL	ICM20948.h	/^    const uint8_t UB3_I2C_SLV1_CTRL = 0x09;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV1_CTRL_EN	ICM20948.h	/^    const uint8_t UB3_I2C_SLV1_CTRL_EN = 0x80;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV1_DO	ICM20948.h	/^    const uint8_t UB3_I2C_SLV1_DO = 0x0A;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+UB3_I2C_SLV1_REG	ICM20948.h	/^    const uint8_t UB3_I2C_SLV1_REG = 0x08;$/;"	m	class:ICM20948	typeref:typename:const uint8_t
+USER_BANK	util/ICM_20948_REGISTERS.h	/^	uint8_t USER_BANK				: 2;$/;"	m	struct:__anon6c8e081e5808	typeref:typename:uint8_t:2
+USER_BANK_0	ICM20948.h	/^    	USER_BANK_0,$/;"	e	enum:ICM20948::UserBank
+USER_BANK_1	ICM20948.h	/^    	USER_BANK_1,$/;"	e	enum:ICM20948::UserBank
+USER_BANK_2	ICM20948.h	/^    	USER_BANK_2,$/;"	e	enum:ICM20948::UserBank
+USER_BANK_3	ICM20948.h	/^    	USER_BANK_3,$/;"	e	enum:ICM20948::UserBank
+UserBank	ICM20948.h	/^    enum UserBank$/;"	g	class:ICM20948
+V	FusionTypes.h	/^#define V /;"	d
+WHO_AM_I	util/ICM_20948_REGISTERS.h	/^	uint8_t WHO_AM_I;$/;"	m	struct:__anon6c8e081e0208	typeref:typename:uint8_t
+WIA1	util/AK09916_REGISTERS.h	/^        uint8_t WIA1;$/;"	m	struct:__anon16c1e4d40208	typeref:typename:uint8_t
+WIA2	util/AK09916_REGISTERS.h	/^        uint8_t WIA2;$/;"	m	struct:__anon16c1e4d40308	typeref:typename:uint8_t
+WOF_DEGLITCH_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t WOF_DEGLITCH_EN			: 1;$/;"	m	struct:__anon6c8e081e4c08	typeref:typename:uint8_t:1
+WOF_EDGE_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t WOF_EDGE_INT			: 1;$/;"	m	struct:__anon6c8e081e4c08	typeref:typename:uint8_t:1
+WOF_STATUS	util/ICM_20948_REGISTERS.h	/^	uint8_t WOF_STATUS				: 1;$/;"	m	struct:__anon6c8e081e2d08	typeref:typename:uint8_t:1
+WOM_INT	util/ICM_20948_REGISTERS.h	/^	uint8_t WOM_INT						: 1;$/;"	m	struct:__anon6c8e081e1108	typeref:typename:uint8_t:1
+WOM_INT_EN	util/ICM_20948_C.h	/^		uint8_t WOM_INT_EN : 1;$/;"	m	struct:__anon3aa6a2a90808	typeref:typename:uint8_t:1
+WOM_INT_EN	util/ICM_20948_REGISTERS.h	/^	uint8_t WOM_INT_EN					: 1;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:1
+WOM_THRESHOLD	util/ICM_20948_REGISTERS.h	/^	uint8_t WOM_THRESHOLD;$/;"	m	struct:__anon6c8e081e4908	typeref:typename:uint8_t
+WRITE_BIT	ICM20948.cpp	/^#define WRITE_BIT /;"	d	file:
+WRITE_BIT	ICM_20948.cpp	/^#define WRITE_BIT /;"	d	file:
+XA_OFFS_14_7	util/ICM_20948_REGISTERS.h	/^	uint8_t XA_OFFS_14_7;$/;"	m	struct:__anon6c8e081e3508	typeref:typename:uint8_t
+XA_OFFS_6_0	util/ICM_20948_REGISTERS.h	/^	uint8_t XA_OFFS_6_0			: 7;$/;"	m	struct:__anon6c8e081e3608	typeref:typename:uint8_t:7
+XA_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t XA_ST_DATA;$/;"	m	struct:__anon6c8e081e3208	typeref:typename:uint8_t
+XGYRO_CTEN	util/ICM_20948_REGISTERS.h	/^	uint8_t XGYRO_CTEN				: 1;$/;"	m	struct:__anon6c8e081e3e08	typeref:typename:uint8_t:1
+XG_OFFS_USER_H	util/ICM_20948_REGISTERS.h	/^	uint8_t XG_OFFS_USER_H;$/;"	m	struct:__anon6c8e081e3f08	typeref:typename:uint8_t
+XG_OFFS_USER_L	util/ICM_20948_REGISTERS.h	/^	uint8_t XG_OFFS_USER_L;$/;"	m	struct:__anon6c8e081e4008	typeref:typename:uint8_t
+XG_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t XG_ST_DATA;$/;"	m	struct:__anon6c8e081e2f08	typeref:typename:uint8_t
+YA_OFFS_14_7	util/ICM_20948_REGISTERS.h	/^	uint8_t YA_OFFS_14_7;$/;"	m	struct:__anon6c8e081e3708	typeref:typename:uint8_t
+YA_OFFS_6_0	util/ICM_20948_REGISTERS.h	/^	uint8_t YA_OFFS_6_0			: 7;$/;"	m	struct:__anon6c8e081e3808	typeref:typename:uint8_t:7
+YA_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t YA_ST_DATA;$/;"	m	struct:__anon6c8e081e3308	typeref:typename:uint8_t
+YGYRO_CTEN	util/ICM_20948_REGISTERS.h	/^	uint8_t YGYRO_CTEN				: 1;$/;"	m	struct:__anon6c8e081e3e08	typeref:typename:uint8_t:1
+YG_OFFS_USER_H	util/ICM_20948_REGISTERS.h	/^	uint8_t YG_OFFS_USER_H;$/;"	m	struct:__anon6c8e081e4108	typeref:typename:uint8_t
+YG_OFFS_USER_L	util/ICM_20948_REGISTERS.h	/^	uint8_t YG_OFFS_USER_L;$/;"	m	struct:__anon6c8e081e4208	typeref:typename:uint8_t
+YG_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t YG_ST_DATA;$/;"	m	struct:__anon6c8e081e3008	typeref:typename:uint8_t
+ZA_OFFS_14_7	util/ICM_20948_REGISTERS.h	/^	uint8_t ZA_OFFS_14_7;$/;"	m	struct:__anon6c8e081e3908	typeref:typename:uint8_t
+ZA_OFFS_6_0	util/ICM_20948_REGISTERS.h	/^	uint8_t ZA_OFFS_6_0			: 7;$/;"	m	struct:__anon6c8e081e3a08	typeref:typename:uint8_t:7
+ZA_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t ZA_ST_DATA;$/;"	m	struct:__anon6c8e081e3408	typeref:typename:uint8_t
+ZGYRO_CTEN	util/ICM_20948_REGISTERS.h	/^	uint8_t ZGYRO_CTEN				: 1;$/;"	m	struct:__anon6c8e081e3e08	typeref:typename:uint8_t:1
+ZG_OFFS_USER_H	util/ICM_20948_REGISTERS.h	/^	uint8_t ZG_OFFS_USER_H;$/;"	m	struct:__anon6c8e081e4308	typeref:typename:uint8_t
+ZG_OFFS_USER_L	util/ICM_20948_REGISTERS.h	/^	uint8_t ZG_OFFS_USER_L;$/;"	m	struct:__anon6c8e081e4408	typeref:typename:uint8_t
+ZG_ST_DATA	util/ICM_20948_REGISTERS.h	/^	uint8_t ZG_ST_DATA;$/;"	m	struct:__anon6c8e081e3108	typeref:typename:uint8_t
+_AK09916_ENUMERATIONS_H_	util/AK09916_ENUMERATIONS.h	/^#define _AK09916_ENUMERATIONS_H_$/;"	d
+_AK09916_REGISTERS_H_	util/AK09916_REGISTERS.h	/^#define _AK09916_REGISTERS_H_$/;"	d
+_ICM_20948_C_H_	util/ICM_20948_C.h	/^#define _ICM_20948_C_H_$/;"	d
+_ICM_20948_ENUMERATIONS_H_	util/ICM_20948_ENUMERATIONS.h	/^#define _ICM_20948_ENUMERATIONS_H_$/;"	d
+_ICM_20948_H_	ICM_20948.h	/^#define _ICM_20948_H_$/;"	d
+_ICM_20948_REGISTERS_H_	util/ICM_20948_REGISTERS.h	/^#define _ICM_20948_REGISTERS_H_$/;"	d
+__anon0b6ce0200103	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{$/;"	g
+__anon0b6ce0200203	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{$/;"	g
+__anon0b6ce0200303	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{                       \/\/ Full scale range options in degrees per second$/;"	g
+__anon0b6ce0200403	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{                       \/\/ Format is dAbwB_nXbwZ - A is integer part of 3db BW, B /;"	g
+__anon0b6ce0200503	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{$/;"	g
+__anon0b6ce0200603	util/ICM_20948_ENUMERATIONS.h	/^typedef enum{							\/\/ Format is dAbwB_nXbwZ - A is integer part of 3db BW, B is fraction. X i/;"	g
+__anon16c1e4d40103	util/AK09916_REGISTERS.h	/^typedef enum{$/;"	g
+__anon16c1e4d40208	util/AK09916_REGISTERS.h	/^	typedef struct{$/;"	s
+__anon16c1e4d40308	util/AK09916_REGISTERS.h	/^    typedef struct{$/;"	s
+__anon16c1e4d40408	util/AK09916_REGISTERS.h	/^    typedef struct{$/;"	s
+__anon16c1e4d40508	util/AK09916_REGISTERS.h	/^    typedef struct{$/;"	s
+__anon16c1e4d40608	util/AK09916_REGISTERS.h	/^    typedef struct{$/;"	s
+__anon16c1e4d40708	util/AK09916_REGISTERS.h	/^    typedef struct{$/;"	s
+__anon3aa6a2a90103	util/ICM_20948_C.h	/^	{$/;"	g
+__anon3aa6a2a90203	util/ICM_20948_C.h	/^	{$/;"	g
+__anon3aa6a2a9030a	util/ICM_20948_C.h	/^	typedef union {$/;"	u
+__anon3aa6a2a9040a	util/ICM_20948_C.h	/^	typedef union {$/;"	u
+__anon3aa6a2a90508	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a90608	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a90708	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a90808	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a9090a	util/ICM_20948_C.h	/^	typedef union {$/;"	u
+__anon3aa6a2a90a08	util/ICM_20948_C.h	/^		{$/;"	s	union:__anon3aa6a2a9090a
+__anon3aa6a2a90b08	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a90c0a	util/ICM_20948_C.h	/^		union {$/;"	u	struct:__anon3aa6a2a90b08
+__anon3aa6a2a90d08	util/ICM_20948_C.h	/^	{$/;"	s
+__anon3aa6a2a90e08	util/ICM_20948_C.h	/^	{$/;"	s
+__anon69a1cf7d0108	FusionAhrs.h	/^typedef struct {$/;"	s
+__anon6bffbe2e0108	FusionBias.h	/^typedef struct {$/;"	s
+__anon6c8e081e0103	util/ICM_20948_REGISTERS.h	/^typedef enum{$/;"	g
+__anon6c8e081e0208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0908	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e0a0a	util/ICM_20948_REGISTERS.h	/^typedef union{$/;"	u
+__anon6c8e081e0b08	util/ICM_20948_REGISTERS.h	/^	struct{$/;"	s	union:__anon6c8e081e0a0a
+__anon6c8e081e0c08	util/ICM_20948_REGISTERS.h	/^	struct{$/;"	s	union:__anon6c8e081e0a0a
+__anon6c8e081e0d0a	util/ICM_20948_REGISTERS.h	/^typedef union{$/;"	u
+__anon6c8e081e0e08	util/ICM_20948_REGISTERS.h	/^	struct{$/;"	s	union:__anon6c8e081e0d0a
+__anon6c8e081e0f08	util/ICM_20948_REGISTERS.h	/^	struct{$/;"	s	union:__anon6c8e081e0d0a
+__anon6c8e081e1008	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1108	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1908	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1a08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1b08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1c08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1d08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1e08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e1f08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2008	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2108	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2908	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2a08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2b08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2c08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2d08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2e08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e2f08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3008	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3108	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3908	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3a08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3b08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3c08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3d08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3e08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e3f08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4008	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4108	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4908	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4a08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4b08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4c08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4d08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4e08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e4f08	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5008	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5108	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5208	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5308	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5408	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5508	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5608	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5708	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon6c8e081e5808	util/ICM_20948_REGISTERS.h	/^typedef struct{$/;"	s
+__anon7beb3444010a	FusionTypes.h	/^typedef union {$/;"	u
+__anon7beb34440208	FusionTypes.h	/^    struct {$/;"	s	union:__anon7beb3444010a
+__anon7beb3444030a	FusionTypes.h	/^typedef union {$/;"	u
+__anon7beb34440408	FusionTypes.h	/^    struct {$/;"	s	union:__anon7beb3444030a
+__anon7beb3444050a	FusionTypes.h	/^typedef union {$/;"	u
+__anon7beb34440608	FusionTypes.h	/^    struct {$/;"	s	union:__anon7beb3444050a
+__anon7beb3444070a	FusionTypes.h	/^typedef union {$/;"	u
+__anon7beb34440808	FusionTypes.h	/^    struct {$/;"	s	union:__anon7beb3444070a
+__anone5c709160103	util/AK09916_ENUMERATIONS.h	/^typedef enum{$/;"	g
+_accelBandwidth	ICM20948.h	/^    AccelDlpfBandwidth _accelBandwidth;$/;"	m	class:ICM20948	typeref:typename:AccelDlpfBandwidth
+_accelRange	ICM20948.h	/^    AccelRange _accelRange;$/;"	m	class:ICM20948	typeref:typename:AccelRange
+_accelScale	ICM20948.h	/^    float _accelScale;$/;"	m	class:ICM20948	typeref:typename:float
+_accelSrd	ICM20948.h	/^    uint16_t _accelSrd;$/;"	m	class:ICM20948	typeref:typename:uint16_t
+_ad0	ICM_20948.h	/^    uint8_t _ad0;$/;"	m	class:ICM_20948_I2C	typeref:typename:uint8_t
+_ad0val	ICM_20948.h	/^    bool _ad0val;$/;"	m	class:ICM_20948_I2C	typeref:typename:bool
+_addr	ICM_20948.h	/^    uint8_t _addr;$/;"	m	class:ICM_20948_I2C	typeref:typename:uint8_t
+_address	ICM20948.h	/^    uint8_t _address;$/;"	m	class:ICM20948	typeref:typename:uint8_t
+_avgs	ICM20948.h	/^    float _avgs;$/;"	m	class:ICM20948	typeref:typename:float
+_ax	ICM20948.h	/^    float _ax, _ay, _az;$/;"	m	class:ICM20948	typeref:typename:float
+_axb	ICM20948.h	/^    float _axb, _ayb, _azb;$/;"	m	class:ICM20948	typeref:typename:float
+_axbD	ICM20948.h	/^    double _axbD, _aybD, _azbD;$/;"	m	class:ICM20948	typeref:typename:double
+_axcounts	ICM20948.h	/^    int16_t _axcounts,_aycounts,_azcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_axmax	ICM20948.h	/^    float _axmax, _aymax, _azmax;$/;"	m	class:ICM20948	typeref:typename:float
+_axmin	ICM20948.h	/^    float _axmin, _aymin, _azmin;$/;"	m	class:ICM20948	typeref:typename:float
+_axs	ICM20948.h	/^    float _axs = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_ay	ICM20948.h	/^    float _ax, _ay, _az;$/;"	m	class:ICM20948	typeref:typename:float
+_ayb	ICM20948.h	/^    float _axb, _ayb, _azb;$/;"	m	class:ICM20948	typeref:typename:float
+_aybD	ICM20948.h	/^    double _axbD, _aybD, _azbD;$/;"	m	class:ICM20948	typeref:typename:double
+_aycounts	ICM20948.h	/^    int16_t _axcounts,_aycounts,_azcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_aymax	ICM20948.h	/^    float _axmax, _aymax, _azmax;$/;"	m	class:ICM20948	typeref:typename:float
+_aymin	ICM20948.h	/^    float _axmin, _aymin, _azmin;$/;"	m	class:ICM20948	typeref:typename:float
+_ays	ICM20948.h	/^    float _ays = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_az	ICM20948.h	/^    float _ax, _ay, _az;$/;"	m	class:ICM20948	typeref:typename:float
+_azb	ICM20948.h	/^    float _axb, _ayb, _azb;$/;"	m	class:ICM20948	typeref:typename:float
+_azbD	ICM20948.h	/^    double _axbD, _aybD, _azbD;$/;"	m	class:ICM20948	typeref:typename:double
+_azcounts	ICM20948.h	/^    int16_t _axcounts,_aycounts,_azcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_azmax	ICM20948.h	/^    float _axmax, _aymax, _azmax;$/;"	m	class:ICM20948	typeref:typename:float
+_azmin	ICM20948.h	/^    float _axmin, _aymin, _azmin;$/;"	m	class:ICM20948	typeref:typename:float
+_azs	ICM20948.h	/^    float _azs = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_buffer	ICM20948.h	/^    uint8_t _buffer[21];$/;"	m	class:ICM20948	typeref:typename:uint8_t[21]
+_coeff	ICM20948.h	/^    uint8_t _coeff = 8;$/;"	m	class:ICM20948	typeref:typename:uint8_t
+_counter	ICM20948.h	/^    uint16_t _counter;$/;"	m	class:ICM20948	typeref:typename:uint16_t
+_currentUserBank	ICM20948.h	/^    UserBank _currentUserBank = USER_BANK_0;$/;"	m	class:ICM20948	typeref:typename:UserBank
+_d2r	ICM20948.h	/^    const float _d2r = 3.14159265359f\/180.0f;$/;"	m	class:ICM20948	typeref:typename:const float
+_delta	ICM20948.h	/^    float _framedelta, _delta;$/;"	m	class:ICM20948	typeref:typename:float
+_deltaThresh	ICM20948.h	/^    float _deltaThresh = 0.3f;$/;"	m	class:ICM20948	typeref:typename:float
+_device	ICM_20948.h	/^    ICM_20948_Device_t _device;$/;"	m	class:ICM_20948	typeref:typename:ICM_20948_Device_t
+_framedelta	ICM20948.h	/^    float _framedelta, _delta;$/;"	m	class:ICM20948	typeref:typename:float
+_gx	ICM20948.h	/^    float _gx, _gy, _gz;$/;"	m	class:ICM20948	typeref:typename:float
+_gxb	ICM20948.h	/^    float _gxb, _gyb, _gzb;$/;"	m	class:ICM20948	typeref:typename:float
+_gxbD	ICM20948.h	/^    double _gxbD, _gybD, _gzbD;$/;"	m	class:ICM20948	typeref:typename:double
+_gxcounts	ICM20948.h	/^    int16_t _gxcounts,_gycounts,_gzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_gy	ICM20948.h	/^    float _gx, _gy, _gz;$/;"	m	class:ICM20948	typeref:typename:float
+_gyb	ICM20948.h	/^    float _gxb, _gyb, _gzb;$/;"	m	class:ICM20948	typeref:typename:float
+_gybD	ICM20948.h	/^    double _gxbD, _gybD, _gzbD;$/;"	m	class:ICM20948	typeref:typename:double
+_gycounts	ICM20948.h	/^    int16_t _gxcounts,_gycounts,_gzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_gyroBandwidth	ICM20948.h	/^    GyroDlpfBandwidth _gyroBandwidth;$/;"	m	class:ICM20948	typeref:typename:GyroDlpfBandwidth
+_gyroRange	ICM20948.h	/^    GyroRange _gyroRange;$/;"	m	class:ICM20948	typeref:typename:GyroRange
+_gyroScale	ICM20948.h	/^    float _gyroScale;$/;"	m	class:ICM20948	typeref:typename:float
+_gyroSrd	ICM20948.h	/^    uint8_t _gyroSrd;$/;"	m	class:ICM20948	typeref:typename:uint8_t
+_gz	ICM20948.h	/^    float _gx, _gy, _gz;$/;"	m	class:ICM20948	typeref:typename:float
+_gzb	ICM20948.h	/^    float _gxb, _gyb, _gzb;$/;"	m	class:ICM20948	typeref:typename:float
+_gzbD	ICM20948.h	/^    double _gxbD, _gybD, _gzbD;$/;"	m	class:ICM20948	typeref:typename:double
+_gzcounts	ICM20948.h	/^    int16_t _gxcounts,_gycounts,_gzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_hx	ICM20948.h	/^    float _hx, _hy, _hz;$/;"	m	class:ICM20948	typeref:typename:float
+_hxb	ICM20948.h	/^    float _hxb, _hyb, _hzb;$/;"	m	class:ICM20948	typeref:typename:float
+_hxcounts	ICM20948.h	/^    int16_t _hxcounts,_hycounts,_hzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_hxfilt	ICM20948.h	/^    float _hxfilt, _hyfilt, _hzfilt;$/;"	m	class:ICM20948	typeref:typename:float
+_hxmax	ICM20948.h	/^    float _hxmax, _hymax, _hzmax;$/;"	m	class:ICM20948	typeref:typename:float
+_hxmin	ICM20948.h	/^    float _hxmin, _hymin, _hzmin;$/;"	m	class:ICM20948	typeref:typename:float
+_hxs	ICM20948.h	/^    float _hxs = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_hy	ICM20948.h	/^    float _hx, _hy, _hz;$/;"	m	class:ICM20948	typeref:typename:float
+_hyb	ICM20948.h	/^    float _hxb, _hyb, _hzb;$/;"	m	class:ICM20948	typeref:typename:float
+_hycounts	ICM20948.h	/^    int16_t _hxcounts,_hycounts,_hzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_hyfilt	ICM20948.h	/^    float _hxfilt, _hyfilt, _hzfilt;$/;"	m	class:ICM20948	typeref:typename:float
+_hymax	ICM20948.h	/^    float _hxmax, _hymax, _hzmax;$/;"	m	class:ICM20948	typeref:typename:float
+_hymin	ICM20948.h	/^    float _hxmin, _hymin, _hzmin;$/;"	m	class:ICM20948	typeref:typename:float
+_hys	ICM20948.h	/^    float _hys = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_hz	ICM20948.h	/^    float _hx, _hy, _hz;$/;"	m	class:ICM20948	typeref:typename:float
+_hzb	ICM20948.h	/^    float _hxb, _hyb, _hzb;$/;"	m	class:ICM20948	typeref:typename:float
+_hzcounts	ICM20948.h	/^    int16_t _hxcounts,_hycounts,_hzcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_hzfilt	ICM20948.h	/^    float _hxfilt, _hyfilt, _hzfilt;$/;"	m	class:ICM20948	typeref:typename:float
+_hzmax	ICM20948.h	/^    float _hxmax, _hymax, _hzmax;$/;"	m	class:ICM20948	typeref:typename:float
+_hzmin	ICM20948.h	/^    float _hxmin, _hymin, _hzmin;$/;"	m	class:ICM20948	typeref:typename:float
+_hzs	ICM20948.h	/^    float _hzs = 1.0f;$/;"	m	class:ICM20948	typeref:typename:float
+_i2cRate	ICM20948.h	/^    const uint32_t _i2cRate = 400000; \/\/ 400 kHz$/;"	m	class:ICM20948	typeref:typename:const uint32_t
+_magScale	ICM20948.h	/^    const float _magScale = 4912.0f \/ magRawScaling; \/\/ micro Tesla, measurement range is +\//;"	m	class:ICM20948	typeref:typename:const float
+_maxCounts	ICM20948.h	/^    uint16_t _maxCounts = 1000;$/;"	m	class:ICM20948	typeref:typename:uint16_t
+_numBytes	ICM20948.h	/^    size_t _numBytes; \/\/ number of bytes received from I2C$/;"	m	class:ICM20948	typeref:typename:size_t
+_numSamples	ICM20948.h	/^    size_t _numSamples = 100;$/;"	m	class:ICM20948	typeref:typename:size_t
+_serif	ICM_20948.h	/^    ICM_20948_Serif_t _serif;$/;"	m	class:ICM_20948_I2C	typeref:typename:ICM_20948_Serif_t
+_serif	util/ICM_20948_C.h	/^		const ICM_20948_Serif_t *_serif; \/\/ Pointer to the assigned Serif (Serial Interface) vtable$/;"	m	struct:__anon3aa6a2a90e08	typeref:typename:const ICM_20948_Serif_t *
+_status	ICM20948.h	/^    int _status;$/;"	m	class:ICM20948	typeref:typename:int
+_t	ICM20948.h	/^    float _t;$/;"	m	class:ICM20948	typeref:typename:float
+_tcounts	ICM20948.h	/^    int16_t _tcounts;$/;"	m	class:ICM20948	typeref:typename:int16_t
+_tempOffset	ICM20948.h	/^    const float _tempOffset = 21.0f;$/;"	m	class:ICM20948	typeref:typename:const float
+_tempScale	ICM20948.h	/^    const float _tempScale = 333.87f;$/;"	m	class:ICM20948	typeref:typename:const float
+_womThreshold	ICM20948.h	/^    uint8_t _womThreshold;$/;"	m	class:ICM20948	typeref:typename:uint8_t
+a	util/ICM_20948_C.h	/^		uint16_t a;$/;"	m	struct:__anon3aa6a2a90708	typeref:typename:uint16_t
+a	util/ICM_20948_C.h	/^		uint8_t a : 2;$/;"	m	struct:__anon3aa6a2a90508	typeref:typename:uint8_t:2
+a	util/ICM_20948_C.h	/^		uint8_t a;$/;"	m	struct:__anon3aa6a2a90608	typeref:typename:uint8_t
+acc	util/ICM_20948_C.h	/^		ICM_20948_axis3named_t acc;$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:ICM_20948_axis3named_t
+accRawScaling	ICM20948.h	/^    const float accRawScaling = 32767.5f; \/\/ =(2^16-1)\/2 16 bit representation of acc value t/;"	m	class:ICM20948	typeref:typename:const float
+accX	ICM_20948.cpp	/^float ICM_20948::accX(void)$/;"	f	class:ICM_20948	typeref:typename:float
+accY	ICM_20948.cpp	/^float ICM_20948::accY(void)$/;"	f	class:ICM_20948	typeref:typename:float
+accZ	ICM_20948.cpp	/^float ICM_20948::accZ(void)$/;"	f	class:ICM_20948	typeref:typename:float
+acc_d111bw4_n136bw	util/ICM_20948_ENUMERATIONS.h	/^	acc_d111bw4_n136bw,$/;"	e	enum:__anon0b6ce0200603
+acc_d11bw5_n17bw	util/ICM_20948_ENUMERATIONS.h	/^	acc_d11bw5_n17bw,$/;"	e	enum:__anon0b6ce0200603
+acc_d23bw9_n34bw4	util/ICM_20948_ENUMERATIONS.h	/^	acc_d23bw9_n34bw4,$/;"	e	enum:__anon0b6ce0200603
+acc_d246bw_n265bw	util/ICM_20948_ENUMERATIONS.h	/^	acc_d246bw_n265bw = 0x00,$/;"	e	enum:__anon0b6ce0200603
+acc_d246bw_n265bw_1	util/ICM_20948_ENUMERATIONS.h	/^	acc_d246bw_n265bw_1,$/;"	e	enum:__anon0b6ce0200603
+acc_d473bw_n499bw	util/ICM_20948_ENUMERATIONS.h	/^	acc_d473bw_n499bw,$/;"	e	enum:__anon0b6ce0200603
+acc_d50bw4_n68bw8	util/ICM_20948_ENUMERATIONS.h	/^	acc_d50bw4_n68bw8,$/;"	e	enum:__anon0b6ce0200603
+acc_d5bw7_n8bw3	util/ICM_20948_ENUMERATIONS.h	/^	acc_d5bw7_n8bw3,$/;"	e	enum:__anon0b6ce0200603
+accelerometerBias	main.cpp	/^FusionVector3 accelerometerBias = {$/;"	v	typeref:typename:FusionVector3
+accelerometerSensitivity	main.cpp	/^FusionVector3 accelerometerSensitivity = {$/;"	v	typeref:typename:FusionVector3
+agmt	ICM_20948.h	/^    ICM_20948_AGMT_t agmt;          \/\/ Acceleometer, Gyroscope, Magenetometer, and Temperature/;"	m	class:ICM_20948	typeref:typename:ICM_20948_AGMT_t
+angle	FusionTypes.h	/^    } angle;$/;"	m	union:__anon7beb3444070a	typeref:struct:__anon7beb3444070a::__anon7beb34440808
+app_main	main.cpp	/^extern "C" void app_main()$/;"	f	typeref:typename:void
+array	FusionTypes.h	/^    float array[3];$/;"	m	union:__anon7beb3444010a	typeref:typename:float[3]
+array	FusionTypes.h	/^    float array[3];$/;"	m	union:__anon7beb3444070a	typeref:typename:float[3]
+array	FusionTypes.h	/^    float array[4];$/;"	m	union:__anon7beb3444030a	typeref:typename:float[4]
+array	FusionTypes.h	/^    float array[9];$/;"	m	union:__anon7beb3444050a	typeref:typename:float[9]
+axes	util/ICM_20948_C.h	/^		} axes;$/;"	m	union:__anon3aa6a2a9090a	typeref:struct:__anon3aa6a2a9090a::__anon3aa6a2a90a08
+axis	FusionTypes.h	/^    } axis;$/;"	m	union:__anon7beb3444010a	typeref:struct:__anon7beb3444010a::__anon7beb34440208
+begin	ICM20948.cpp	/^int ICM20948::begin() {$/;"	f	class:ICM20948	typeref:typename:int
+begin	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948_I2C::begin(bool ad0val, uint8_t ad0pin)$/;"	f	class:ICM_20948_I2C	typeref:typename:ICM_20948_Status_e
+cfgFsyncActiveLow	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgFsyncActiveLow(bool active_low)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+cfgFsyncIntMode	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgFsyncIntMode(bool interrupt_mode)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+cfgIntActiveLow	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgIntActiveLow(bool active_low)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+cfgIntAnyReadToClear	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgIntAnyReadToClear(bool enabled)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+cfgIntLatch	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgIntLatch(bool latching)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+cfgIntOpenDrain	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::cfgIntOpenDrain(bool open_drain)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+changeUserBank	ICM20948.cpp	/^int ICM20948::changeUserBank(UserBank userBank) {$/;"	f	class:ICM20948	typeref:typename:int
+changeUserBank	ICM20948.cpp	/^int ICM20948::changeUserBank(UserBank userBank, bool force) {$/;"	f	class:ICM20948	typeref:typename:int
+checkID	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::checkID(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+clearInterrupts	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::clearInterrupts(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+configAccel	ICM20948.cpp	/^int ICM20948::configAccel(AccelRange range, AccelDlpfBandwidth bandwidth) {$/;"	f	class:ICM20948	typeref:typename:int
+configGyro	ICM20948.cpp	/^int ICM20948::configGyro(GyroRange range, GyroDlpfBandwidth bandwidth) {$/;"	f	class:ICM20948	typeref:typename:int
+configMag	ICM20948.cpp	/^int ICM20948::configMag() { \/\/ TODO: Add possibility to use other modes$/;"	f	class:ICM20948	typeref:typename:int
+dataReady	ICM_20948.cpp	/^bool ICM_20948::dataReady(void)$/;"	f	class:ICM_20948	typeref:typename:bool
+delay	ICM20948.cpp	/^static void delay(size_t ms)$/;"	f	typeref:typename:void	file:
+delay	main.cpp	/^static void delay(size_t ms)$/;"	f	typeref:typename:void	file:
+delay_microseconds	main.cpp	/^void delay_microseconds(uint16_t us)$/;"	f	typeref:typename:void
+disableDataReadyInterrupt	ICM20948.cpp	/^int ICM20948::disableDataReadyInterrupt() {$/;"	f	class:ICM20948	typeref:typename:int
+dps1000	util/ICM_20948_ENUMERATIONS.h	/^	dps1000,$/;"	e	enum:__anon0b6ce0200303
+dps2000	util/ICM_20948_ENUMERATIONS.h	/^	dps2000,$/;"	e	enum:__anon0b6ce0200303
+dps250	util/ICM_20948_ENUMERATIONS.h	/^	dps250 = 0x00,$/;"	e	enum:__anon0b6ce0200303
+dps500	util/ICM_20948_ENUMERATIONS.h	/^	dps500,$/;"	e	enum:__anon0b6ce0200303
+element	FusionTypes.h	/^    } element;$/;"	m	union:__anon7beb3444030a	typeref:struct:__anon7beb3444030a::__anon7beb34440408
+element	FusionTypes.h	/^    } element;$/;"	m	union:__anon7beb3444050a	typeref:struct:__anon7beb3444050a::__anon7beb34440608
+enableAccelGyro	ICM20948.cpp	/^int ICM20948::enableAccelGyro() {$/;"	f	class:ICM20948	typeref:typename:int
+enableDLPF	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::enableDLPF(uint8_t sensor_id_bm, bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+enableDataReadyInterrupt	ICM20948.cpp	/^int ICM20948::enableDataReadyInterrupt() {$/;"	f	class:ICM20948	typeref:typename:int
+enableI2cMaster	ICM20948.cpp	/^int ICM20948::enableI2cMaster() {$/;"	f	class:ICM20948	typeref:typename:int
+filterCoefficient	FusionBias.h	/^    float filterCoefficient;$/;"	m	struct:__anon6bffbe2e0108	typeref:typename:float
+fss	util/ICM_20948_C.h	/^		ICM_20948_fss_t fss; \/\/ Full-scale range settings for this measurement$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:ICM_20948_fss_t
+fusionAhrs	main.cpp	/^FusionAhrs fusionAhrs;$/;"	v	typeref:typename:FusionAhrs
+fusionBias	main.cpp	/^FusionBias fusionBias;$/;"	v	typeref:typename:FusionBias
+g	util/ICM_20948_C.h	/^		uint8_t g : 2;$/;"	m	struct:__anon3aa6a2a90508	typeref:typename:uint8_t:2
+g	util/ICM_20948_C.h	/^		uint8_t g;$/;"	m	struct:__anon3aa6a2a90608	typeref:typename:uint8_t
+g	util/ICM_20948_C.h	/^		uint8_t g;$/;"	m	struct:__anon3aa6a2a90708	typeref:typename:uint8_t
+gain	FusionAhrs.h	/^    float gain;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:float
+getAGMT	ICM_20948.cpp	/^ICM_20948_AGMT_t ICM_20948::getAGMT(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_AGMT_t
+getAccMG	ICM_20948.cpp	/^float ICM_20948::getAccMG(int16_t axis_val)$/;"	f	class:ICM_20948	typeref:typename:float
+getAccelX_mss	ICM20948.cpp	/^float ICM20948::getAccelX_mss() {$/;"	f	class:ICM20948	typeref:typename:float
+getAccelY_mss	ICM20948.cpp	/^float ICM20948::getAccelY_mss() {$/;"	f	class:ICM20948	typeref:typename:float
+getAccelZ_mss	ICM20948.cpp	/^float ICM20948::getAccelZ_mss() {$/;"	f	class:ICM20948	typeref:typename:float
+getGyrDPS	ICM_20948.cpp	/^float ICM_20948::getGyrDPS(int16_t axis_val)$/;"	f	class:ICM_20948	typeref:typename:float
+getGyroX_rads	ICM20948.cpp	/^float ICM20948::getGyroX_rads() {$/;"	f	class:ICM20948	typeref:typename:float
+getGyroY_rads	ICM20948.cpp	/^float ICM20948::getGyroY_rads() {$/;"	f	class:ICM20948	typeref:typename:float
+getGyroZ_rads	ICM20948.cpp	/^float ICM20948::getGyroZ_rads() {$/;"	f	class:ICM20948	typeref:typename:float
+getMagUT	ICM_20948.cpp	/^float ICM_20948::getMagUT(int16_t axis_val)$/;"	f	class:ICM_20948	typeref:typename:float
+getMagX_uT	ICM20948.cpp	/^float ICM20948::getMagX_uT() {$/;"	f	class:ICM20948	typeref:typename:float
+getMagY_uT	ICM20948.cpp	/^float ICM20948::getMagY_uT() {$/;"	f	class:ICM20948	typeref:typename:float
+getMagZ_uT	ICM20948.cpp	/^float ICM20948::getMagZ_uT() {$/;"	f	class:ICM20948	typeref:typename:float
+getTempC	ICM_20948.cpp	/^float ICM_20948::getTempC(int16_t val)$/;"	f	class:ICM_20948	typeref:typename:float
+getTemperature_C	ICM20948.cpp	/^float ICM20948::getTemperature_C() {$/;"	f	class:ICM20948	typeref:typename:float
+getWhoAmI	ICM_20948.cpp	/^uint8_t ICM_20948::getWhoAmI(void)$/;"	f	class:ICM_20948	typeref:typename:uint8_t
+gpm16	util/ICM_20948_ENUMERATIONS.h	/^	gpm16,$/;"	e	enum:__anon0b6ce0200503
+gpm2	util/ICM_20948_ENUMERATIONS.h	/^	gpm2 = 0x00,$/;"	e	enum:__anon0b6ce0200503
+gpm4	util/ICM_20948_ENUMERATIONS.h	/^	gpm4,$/;"	e	enum:__anon0b6ce0200503
+gpm8	util/ICM_20948_ENUMERATIONS.h	/^	gpm8,$/;"	e	enum:__anon0b6ce0200503
+grouped	util/ICM_20948_REGISTERS.h	/^	}grouped;$/;"	m	union:__anon6c8e081e0a0a	typeref:struct:__anon6c8e081e0a0a::__anon6c8e081e0b08
+grouped	util/ICM_20948_REGISTERS.h	/^	}grouped;$/;"	m	union:__anon6c8e081e0d0a	typeref:struct:__anon6c8e081e0d0a::__anon6c8e081e0e08
+gyr	util/ICM_20948_C.h	/^		ICM_20948_axis3named_t gyr;$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:ICM_20948_axis3named_t
+gyrX	ICM_20948.cpp	/^float ICM_20948::gyrX(void)$/;"	f	class:ICM_20948	typeref:typename:float
+gyrY	ICM_20948.cpp	/^float ICM_20948::gyrY(void)$/;"	f	class:ICM_20948	typeref:typename:float
+gyrZ	ICM_20948.cpp	/^float ICM_20948::gyrZ(void)$/;"	f	class:ICM_20948	typeref:typename:float
+gyr_d119bw5_n154bw3	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d119bw5_n154bw3,$/;"	e	enum:__anon0b6ce0200403
+gyr_d11bw6_n17bw8	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d11bw6_n17bw8,$/;"	e	enum:__anon0b6ce0200403
+gyr_d151bw8_n187bw6	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d151bw8_n187bw6,$/;"	e	enum:__anon0b6ce0200403
+gyr_d196bw6_n229bw8	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d196bw6_n229bw8 = 0x00,$/;"	e	enum:__anon0b6ce0200403
+gyr_d23bw9_n35bw9	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d23bw9_n35bw9,$/;"	e	enum:__anon0b6ce0200403
+gyr_d361bw4_n376bw5	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d361bw4_n376bw5,$/;"	e	enum:__anon0b6ce0200403
+gyr_d51bw2_n73bw3	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d51bw2_n73bw3,$/;"	e	enum:__anon0b6ce0200403
+gyr_d5bw7_n8bw9	util/ICM_20948_ENUMERATIONS.h	/^	gyr_d5bw7_n8bw9,$/;"	e	enum:__anon0b6ce0200403
+gyroRawScaling	ICM20948.h	/^    const float gyroRawScaling = 32767.5f; \/\/ =(2^16-1)\/2 16 bit representation of gyro value/;"	m	class:ICM20948	typeref:typename:const float
+gyroscopeBias	FusionBias.h	/^    FusionVector3 gyroscopeBias;$/;"	m	struct:__anon6bffbe2e0108	typeref:typename:FusionVector3
+gyroscopeSensitivity	main.cpp	/^FusionVector3 gyroscopeSensitivity = {$/;"	v	typeref:typename:FusionVector3
+hardIronBias	main.cpp	/^FusionVector3 hardIronBias = {$/;"	v	typeref:typename:FusionVector3
+i16bit	util/ICM_20948_C.h	/^		int16_t i16bit;$/;"	m	union:__anon3aa6a2a9040a	typeref:typename:int16_t
+i16bit	util/ICM_20948_C.h	/^		int16_t i16bit[3];$/;"	m	union:__anon3aa6a2a9030a	typeref:typename:int16_t[3]
+i2cMasterConfigureSlave	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterConfigureSlave(uint8_t slave, uint8_t addr, uint8_t reg, /;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+i2cMasterEnable	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterEnable(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+i2cMasterPassthrough	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterPassthrough(bool passthrough)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+i2cMasterReset	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterReset()$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+i2cMasterSLV4Transaction	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterSLV4Transaction(uint8_t addr, uint8_t reg, uint8_t *data,/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+i2cMasterSingleR	ICM_20948.cpp	/^uint8_t ICM_20948::i2cMasterSingleR(uint8_t addr, uint8_t reg)$/;"	f	class:ICM_20948	typeref:typename:uint8_t
+i2cMasterSingleW	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::i2cMasterSingleW(uint8_t addr, uint8_t reg, uint8_t data)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+individual	util/ICM_20948_REGISTERS.h	/^	}individual;$/;"	m	union:__anon6c8e081e0a0a	typeref:struct:__anon6c8e081e0a0a::__anon6c8e081e0c08
+individual	util/ICM_20948_REGISTERS.h	/^	}individual;$/;"	m	union:__anon6c8e081e0d0a	typeref:struct:__anon6c8e081e0d0a::__anon6c8e081e0f08
+intEnableDMP	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableDMP(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableI2C	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableI2C(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableOverflowFIFO	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableOverflowFIFO(uint8_t bm_enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnablePLL	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnablePLL(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableRawDataReady	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableRawDataReady(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableWOF	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableWOF(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableWOM	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableWOM(bool enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+intEnableWatermarkFIFO	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::intEnableWatermarkFIFO(uint8_t bm_enable)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+isConnected	ICM_20948.cpp	/^bool ICM_20948::isConnected(void)$/;"	f	class:ICM_20948	typeref:typename:bool
+linearAcceleration	FusionAhrs.h	/^    FusionVector3 linearAcceleration;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:FusionVector3
+lowPower	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::lowPower(bool on)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+mag	util/ICM_20948_C.h	/^		ICM_20948_axis3named_t mag;$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:ICM_20948_axis3named_t
+magRawScaling	ICM20948.h	/^    const float magRawScaling = 32767.5f; \/\/ =(2^16-1)\/2 16 bit representation of gyro value /;"	m	class:ICM20948	typeref:typename:const float
+magStat1	util/ICM_20948_C.h	/^		uint8_t magStat1;$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:uint8_t
+magStat2	util/ICM_20948_C.h	/^		uint8_t magStat2;$/;"	m	struct:__anon3aa6a2a90b08	typeref:typename:uint8_t
+magWhoIAm	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::magWhoIAm(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+magX	ICM_20948.cpp	/^float ICM_20948::magX(void)$/;"	f	class:ICM_20948	typeref:typename:float
+magY	ICM_20948.cpp	/^float ICM_20948::magY(void)$/;"	f	class:ICM_20948	typeref:typename:float
+magZ	ICM_20948.cpp	/^float ICM_20948::magZ(void)$/;"	f	class:ICM_20948	typeref:typename:float
+maximumMagneticFieldSquared	FusionAhrs.h	/^    float maximumMagneticFieldSquared;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:float
+minimumMagneticFieldSquared	FusionAhrs.h	/^    float minimumMagneticFieldSquared;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:float
+periodic_timer_callback	main.cpp	/^static void periodic_timer_callback(void* arg)$/;"	f	typeref:typename:void	file:
+pitch	FusionTypes.h	/^        float pitch;$/;"	m	struct:__anon7beb3444070a::__anon7beb34440808	typeref:typename:float
+position	main.cpp	/^FusionVector3 position;$/;"	v	typeref:typename:FusionVector3
+powerDownMag	ICM20948.cpp	/^int ICM20948::powerDownMag() {$/;"	f	class:ICM20948	typeref:typename:int
+quaternion	FusionAhrs.h	/^    FusionQuaternion quaternion; \/\/ describes the Earth relative to the sensor$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:FusionQuaternion
+rampedGain	FusionAhrs.h	/^    float rampedGain;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:float
+raw	util/ICM_20948_C.h	/^			ICM_20948_axis1bit16_t raw;$/;"	m	union:__anon3aa6a2a90b08::__anon3aa6a2a90c0a	typeref:typename:ICM_20948_axis1bit16_t
+raw	util/ICM_20948_C.h	/^		ICM_20948_axis3bit16_t raw;$/;"	m	union:__anon3aa6a2a9090a	typeref:typename:ICM_20948_axis3bit16_t
+read	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::read(uint8_t reg, uint8_t *pdata, uint32_t len)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+read	util/ICM_20948_C.h	/^		ICM_20948_Status_e (*read)(uint8_t regaddr, uint8_t *pdata, uint32_t len, void *user);$/;"	m	struct:__anon3aa6a2a90d08	typeref:typename:ICM_20948_Status_e (*)(uint8_t regaddr,uint8_t * pdata,uint32_t len,void * user)
+readMag	ICM_20948.cpp	/^uint8_t ICM_20948::readMag(AK09916_Reg_Addr_e reg)$/;"	f	class:ICM_20948	typeref:typename:uint8_t
+readMagRegisters	ICM20948.cpp	/^int ICM20948::readMagRegisters(uint8_t subAddress, uint8_t count, uint8_t* dest) {$/;"	f	class:ICM20948	typeref:typename:int
+readRegisters	ICM20948.cpp	/^int ICM20948::readRegisters(uint8_t subAddress, uint8_t count, uint8_t* dest) {$/;"	f	class:ICM20948	typeref:typename:int
+readSensor	ICM20948.cpp	/^int ICM20948::readSensor() {$/;"	f	class:ICM20948	typeref:typename:int
+reserved_0	util/AK09916_REGISTERS.h	/^        uint8_t reserved_0 : 3;$/;"	m	struct:__anon16c1e4d40508	typeref:typename:uint8_t:3
+reserved_0	util/AK09916_REGISTERS.h	/^        uint8_t reserved_0 : 3;$/;"	m	struct:__anon16c1e4d40608	typeref:typename:uint8_t:3
+reserved_0	util/AK09916_REGISTERS.h	/^        uint8_t reserved_0 : 6 ;$/;"	m	struct:__anon16c1e4d40408	typeref:typename:uint8_t:6
+reserved_0	util/AK09916_REGISTERS.h	/^        uint8_t reserved_0 : 7;    $/;"	m	struct:__anon16c1e4d40708	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_C.h	/^		uint8_t reserved_0 : 4;$/;"	m	struct:__anon3aa6a2a90508	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^		uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0b08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^		uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e0a0a::__anon6c8e081e0c08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^		uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0e08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^		uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e0d0a::__anon6c8e081e0f08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 1;$/;"	m	struct:__anon6c8e081e0508	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 1;$/;"	m	struct:__anon6c8e081e0708	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 2;$/;"	m	struct:__anon6c8e081e0608	typeref:typename:uint8_t:2
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 3;$/;"	m	struct:__anon6c8e081e0808	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 3;$/;"	m	struct:__anon6c8e081e1308	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 3;$/;"	m	struct:__anon6c8e081e1408	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 4;$/;"	m	struct:__anon6c8e081e1108	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 7;$/;"	m	struct:__anon6c8e081e0908	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0					: 7;$/;"	m	struct:__anon6c8e081e1208	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 1;$/;"	m	struct:__anon6c8e081e4c08	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 2;$/;"	m	struct:__anon6c8e081e3d08	typeref:typename:uint8_t:2
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 2;$/;"	m	struct:__anon6c8e081e3e08	typeref:typename:uint8_t:2
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 2;$/;"	m	struct:__anon6c8e081e4a08	typeref:typename:uint8_t:2
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e2708	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e2808	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e2908	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e2d08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 3;$/;"	m	struct:__anon6c8e081e4b08	typeref:typename:uint8_t:3
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 4;$/;"	m	struct:__anon6c8e081e2608	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 4;$/;"	m	struct:__anon6c8e081e4608	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 4;$/;"	m	struct:__anon6c8e081e4f08	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 4;$/;"	m	struct:__anon6c8e081e5808	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 5;$/;"	m	struct:__anon6c8e081e4d08	typeref:typename:uint8_t:5
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 6;$/;"	m	struct:__anon6c8e081e4808	typeref:typename:uint8_t:6
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 7;$/;"	m	struct:__anon6c8e081e2e08	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 7;$/;"	m	struct:__anon6c8e081e4508	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0				: 7;$/;"	m	struct:__anon6c8e081e4e08	typeref:typename:uint8_t:7
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0			: 1;$/;"	m	struct:__anon6c8e081e3608	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0			: 1;$/;"	m	struct:__anon6c8e081e3808	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0			: 1;$/;"	m	struct:__anon6c8e081e3a08	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0 					: 1;$/;"	m	struct:__anon6c8e081e0308	typeref:typename:uint8_t:1
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0 					: 4;$/;"	m	struct:__anon6c8e081e0408	typeref:typename:uint8_t:4
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0 				: 2;$/;"	m	struct:__anon6c8e081e5008	typeref:typename:uint8_t:2
+reserved_0	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_0 				: 2;$/;"	m	struct:__anon6c8e081e5108	typeref:typename:uint8_t:2
+reserved_1	util/AK09916_REGISTERS.h	/^        uint8_t reserved_1 : 4;$/;"	m	struct:__anon16c1e4d40508	typeref:typename:uint8_t:4
+reserved_1	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_1					: 1;$/;"	m	struct:__anon6c8e081e0408	typeref:typename:uint8_t:1
+reserved_1	util/ICM_20948_REGISTERS.h	/^	uint8_t reserved_1				: 2;$/;"	m	struct:__anon6c8e081e5808	typeref:typename:uint8_t:2
+reset	ICM20948.cpp	/^int ICM20948::reset() {$/;"	f	class:ICM20948	typeref:typename:int
+resetMag	ICM20948.cpp	/^int ICM20948::resetMag() {$/;"	f	class:ICM20948	typeref:typename:int
+roll	FusionTypes.h	/^        float roll;$/;"	m	struct:__anon7beb3444070a::__anon7beb34440808	typeref:typename:float
+samplePeriod	FusionBias.h	/^    float samplePeriod;$/;"	m	struct:__anon6bffbe2e0108	typeref:typename:float
+samplePeriod	main.cpp	/^float samplePeriod = 1.f; \/\/ replace this value with actual sample period in seconds$/;"	v	typeref:typename:float
+selectAutoClockSource	ICM20948.cpp	/^int ICM20948::selectAutoClockSource() {$/;"	f	class:ICM20948	typeref:typename:int
+setAccelSrd	ICM20948.cpp	/^int ICM20948::setAccelSrd(uint16_t srd) {$/;"	f	class:ICM20948	typeref:typename:int
+setBank	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setBank(uint8_t bank)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+setClockSource	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setClockSource(ICM_20948_PWR_MGMT_1_CLKSEL_e source)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+setDLPFcfg	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setDLPFcfg(uint8_t sensor_id_bm, ICM_20948_dlpcfg_t cfg)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+setFullScale	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setFullScale(uint8_t sensor_id_bm, ICM_20948_fss_t fss)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+setGyroSrd	ICM20948.cpp	/^int ICM20948::setGyroSrd(uint8_t srd) {$/;"	f	class:ICM20948	typeref:typename:int
+setSampleMode	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setSampleMode(uint8_t sensor_id_bm, uint8_t lp_config_cycle_mode)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+setSampleRate	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::setSampleRate(uint8_t sensor_id_bm, ICM_20948_smplrt_t smplrt)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+sleep	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::sleep(bool on)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+startupDefault	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::startupDefault(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+startupMagnetometer	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::startupMagnetometer(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+stationaryTimer	FusionBias.h	/^    float stationaryTimer;$/;"	m	struct:__anon6bffbe2e0108	typeref:typename:float
+status	ICM_20948.h	/^    ICM_20948_Status_e status;                                              \/\/ Status from lat/;"	m	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+statusString	ICM_20948.cpp	/^const char *ICM_20948::statusString(ICM_20948_Status_e stat)$/;"	f	class:ICM_20948	typeref:typename:const char *
+swReset	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::swReset(void)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+temp	ICM_20948.cpp	/^float ICM_20948::temp(void)$/;"	f	class:ICM_20948	typeref:typename:float
+threshold	FusionBias.h	/^    float threshold;$/;"	m	struct:__anon6bffbe2e0108	typeref:typename:float
+tmp	util/ICM_20948_C.h	/^		} tmp;$/;"	m	struct:__anon3aa6a2a90b08	typeref:union:__anon3aa6a2a90b08::__anon3aa6a2a90c0a
+u8bit	util/ICM_20948_C.h	/^		uint8_t u8bit[2];$/;"	m	union:__anon3aa6a2a9040a	typeref:typename:uint8_t[2]
+u8bit	util/ICM_20948_C.h	/^		uint8_t u8bit[6];$/;"	m	union:__anon3aa6a2a9030a	typeref:typename:uint8_t[6]
+user	util/ICM_20948_C.h	/^		void *user;$/;"	m	struct:__anon3aa6a2a90d08	typeref:typename:void *
+val	util/ICM_20948_C.h	/^			int16_t val;$/;"	m	union:__anon3aa6a2a90b08::__anon3aa6a2a90c0a	typeref:typename:int16_t
+velocity	main.cpp	/^FusionVector3 velocity;$/;"	v	typeref:typename:FusionVector3
+w	FusionTypes.h	/^        float w;$/;"	m	struct:__anon7beb3444030a::__anon7beb34440408	typeref:typename:float
+whoAmI	ICM20948.cpp	/^int ICM20948::whoAmI() {$/;"	f	class:ICM20948	typeref:typename:int
+whoAmIMag	ICM20948.cpp	/^int ICM20948::whoAmIMag() {$/;"	f	class:ICM20948	typeref:typename:int
+write	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::write(uint8_t reg, uint8_t *pdata, uint32_t len)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+write	util/ICM_20948_C.h	/^		ICM_20948_Status_e (*write)(uint8_t regaddr, uint8_t *pdata, uint32_t len, void *user);$/;"	m	struct:__anon3aa6a2a90d08	typeref:typename:ICM_20948_Status_e (*)(uint8_t regaddr,uint8_t * pdata,uint32_t len,void * user)
+writeMag	ICM_20948.cpp	/^ICM_20948_Status_e ICM_20948::writeMag(AK09916_Reg_Addr_e reg, uint8_t *pdata)$/;"	f	class:ICM_20948	typeref:typename:ICM_20948_Status_e
+writeMagRegister	ICM20948.cpp	/^int ICM20948::writeMagRegister(uint8_t subAddress, uint8_t data) {$/;"	f	class:ICM20948	typeref:typename:int
+writeRegister	ICM20948.cpp	/^int ICM20948::writeRegister(uint8_t subAddress, uint8_t data) {$/;"	f	class:ICM20948	typeref:typename:int
+x	FusionTypes.h	/^        float x;$/;"	m	struct:__anon7beb3444010a::__anon7beb34440208	typeref:typename:float
+x	FusionTypes.h	/^        float x;$/;"	m	struct:__anon7beb3444030a::__anon7beb34440408	typeref:typename:float
+x	util/ICM_20948_C.h	/^			int16_t x;$/;"	m	struct:__anon3aa6a2a9090a::__anon3aa6a2a90a08	typeref:typename:int16_t
+xx	FusionTypes.h	/^        float xx;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+xy	FusionTypes.h	/^        float xy;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+xz	FusionTypes.h	/^        float xz;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+y	FusionTypes.h	/^        float y;$/;"	m	struct:__anon7beb3444010a::__anon7beb34440208	typeref:typename:float
+y	FusionTypes.h	/^        float y;$/;"	m	struct:__anon7beb3444030a::__anon7beb34440408	typeref:typename:float
+y	util/ICM_20948_C.h	/^			int16_t y;$/;"	m	struct:__anon3aa6a2a9090a::__anon3aa6a2a90a08	typeref:typename:int16_t
+yaw	FusionTypes.h	/^        float yaw;$/;"	m	struct:__anon7beb3444070a::__anon7beb34440808	typeref:typename:float
+yx	FusionTypes.h	/^        float yx;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+yy	FusionTypes.h	/^        float yy;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+yz	FusionTypes.h	/^        float yz;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+z	FusionTypes.h	/^        float z;$/;"	m	struct:__anon7beb3444010a::__anon7beb34440208	typeref:typename:float
+z	FusionTypes.h	/^        float z;$/;"	m	struct:__anon7beb3444030a::__anon7beb34440408	typeref:typename:float
+z	util/ICM_20948_C.h	/^			int16_t z;$/;"	m	struct:__anon3aa6a2a9090a::__anon3aa6a2a90a08	typeref:typename:int16_t
+zeroYawPending	FusionAhrs.h	/^    bool zeroYawPending;$/;"	m	struct:__anon69a1cf7d0108	typeref:typename:bool
+zx	FusionTypes.h	/^        float zx;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+zy	FusionTypes.h	/^        float zy;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
+zz	FusionTypes.h	/^        float zz;$/;"	m	struct:__anon7beb3444050a::__anon7beb34440608	typeref:typename:float
