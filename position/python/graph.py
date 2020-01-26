@@ -49,4 +49,5 @@ class Graph:
         for i in self.id:
             self.x.append(data[i][0])
             self.y.append(data[i][1])
-            self.z.append(data[i][2])
+            self.z.append(0)
+            #self.z.append(data[i][2])
